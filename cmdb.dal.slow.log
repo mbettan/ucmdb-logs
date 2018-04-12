@@ -1,0 +1,4 @@
+2018-04-11 20:41:54,924  INFO   [main] -  30596ms N/A INSERT INTO CONTENT_PACKS (VERSION,CP_BYTES) values (?,?); Values: '21.00.75',java.io.FileInputStream@795f5d51
+2018-04-11 20:42:14,675  INFO   [main] -  6433ms N/A INSERT INTO CONTENT_PACKS (VERSION,CP_BYTES) values (?,?); Values: '26.00.85',java.io.FileInputStream@167381c7
+2018-04-12 01:16:11,835  INFO   [Starter for "mapping-engine" (during Writer server startup). (customer 1, id name: Default Client)] -  1284ms N/A update SEQUENCES set SEQUENCE_VALUE=? where SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=?; Values: 1698,'URM_COMMIT_REVISION_SEQ',-2147483648
+2018-04-12 06:41:59,431  INFO   [main] -  1331ms N/A select * from DB_CONTEXT where SCHEMA_TYPE=? and IS_GLOBAL=?; Values: 'CMDB',1

@@ -1,0 +1,165 @@
+2018-04-11 20:43:08,579  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class root
+2018-04-11 20:43:08,642  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Starting alignment for class managed_object ------------------
+2018-04-11 20:43:08,642  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Align will be done for all descendant classes of class [managed_object]
+2018-04-11 20:43:08,654  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_object: configuration_item. It will also be aligned.
+2018-04-11 20:43:08,656  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_object: monitor. It will also be aligned.
+2018-04-11 20:43:08,656  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_object: system_monitor. It will also be aligned.
+2018-04-11 20:43:08,657  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_object: eum_monitor. It will also be aligned.
+2018-04-11 20:43:08,658  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_object: infrastructure_element. It will also be aligned.
+2018-04-11 20:43:08,658  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [managed_object] is abstract, going to remove history tables
+2018-04-11 20:43:08,679  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [managed_object].
+2018-04-11 20:43:08,679  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [managed_object].
+2018-04-11 20:43:08,679  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [managed_object] from HDM_ROOT table
+2018-04-11 20:43:08,692  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [managed_object] from HDM_ROOT table
+2018-04-11 20:43:08,692  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [configuration_item] is abstract, going to remove history tables
+2018-04-11 20:43:08,697  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [configuration_item].
+2018-04-11 20:43:08,697  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [configuration_item].
+2018-04-11 20:43:08,697  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [configuration_item] from HDM_ROOT table
+2018-04-11 20:43:08,704  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [configuration_item] from HDM_ROOT table
+2018-04-11 20:43:08,704  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [monitor] is abstract, going to remove history tables
+2018-04-11 20:43:08,712  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [monitor].
+2018-04-11 20:43:08,712  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [monitor].
+2018-04-11 20:43:08,712  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [monitor] from HDM_ROOT table
+2018-04-11 20:43:08,715  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [monitor] from HDM_ROOT table
+2018-04-11 20:43:08,715  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [system_monitor] is abstract, going to remove history tables
+2018-04-11 20:43:08,721  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [system_monitor].
+2018-04-11 20:43:08,721  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [system_monitor].
+2018-04-11 20:43:08,721  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [system_monitor] from HDM_ROOT table
+2018-04-11 20:43:08,727  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [system_monitor] from HDM_ROOT table
+2018-04-11 20:43:08,727  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [eum_monitor] is abstract, going to remove history tables
+2018-04-11 20:43:08,733  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [eum_monitor].
+2018-04-11 20:43:08,733  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [eum_monitor].
+2018-04-11 20:43:08,733  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [eum_monitor] from HDM_ROOT table
+2018-04-11 20:43:08,739  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [eum_monitor] from HDM_ROOT table
+2018-04-11 20:43:08,739  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [infrastructure_element] is abstract, going to remove history tables
+2018-04-11 20:43:08,745  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [infrastructure_element].
+2018-04-11 20:43:08,745  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [infrastructure_element].
+2018-04-11 20:43:08,745  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [infrastructure_element] from HDM_ROOT table
+2018-04-11 20:43:08,749  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [infrastructure_element] from HDM_ROOT table
+2018-04-11 20:43:08,749  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Finished alignment for class managed_object ------------------
+2018-04-11 20:43:08,750  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Starting alignment for class managed_relationship ------------------
+2018-04-11 20:43:08,750  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Align will be done for all descendant classes of class [managed_relationship]
+2018-04-11 20:43:08,753  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: monitor_links. It will also be aligned.
+2018-04-11 20:43:08,753  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: system_monitor_links. It will also be aligned.
+2018-04-11 20:43:08,754  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: eum_links. It will also be aligned.
+2018-04-11 20:43:08,754  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: monitored_by. It will also be aligned.
+2018-04-11 20:43:08,755  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: system_links. It will also be aligned.
+2018-04-11 20:43:08,756  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: business_links. It will also be aligned.
+2018-04-11 20:43:08,756  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: composition. It will also be aligned.
+2018-04-11 20:43:08,757  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: containment. It will also be aligned.
+2018-04-11 20:43:08,759  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Found descendant class of managed_relationship: includes. It will also be aligned.
+2018-04-11 20:43:08,759  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class [managed_relationship] is abstract, going to remove history tables
+2018-04-11 20:43:08,768  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove partition registry for class [managed_relationship].
+2018-04-11 20:43:08,768  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing partition registry for class [managed_relationship].
+2018-04-11 20:43:08,768  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - About to remove class [managed_relationship] from HDM_ROOT table
+2018-04-11 20:43:08,772  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done removing class [managed_relationship] from HDM_ROOT table
+2018-04-11 20:43:08,773  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [monitor_links]
+2018-04-11 20:43:08,773  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class monitor_links is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:08,773  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class monitor_links
+2018-04-11 20:43:08,774  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class monitor_links: HDM_180410MONITOR_LINKS_1
+2018-04-11 20:43:08,869  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410MONITOR_LINKS_1 for class [monitor_links]
+2018-04-11 20:43:08,892  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_MONITOR_LINKS_1 for class [monitor_links]
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class monitor_links
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [monitor_links]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410MONITOR_LINKS_1
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class monitor_links.
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [system_monitor_links]
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class system_monitor_links is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class system_monitor_links
+2018-04-11 20:43:08,894  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class system_monitor_links: HDM_180410SYSTEM__1895643694
+2018-04-11 20:43:08,964  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410SYSTEM__1895643694 for class [system_monitor_links]
+2018-04-11 20:43:08,988  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_SYSTEM_MONITOR_LINKS_1 for class [system_monitor_links]
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class system_monitor_links
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [system_monitor_links]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410SYSTEM__1895643694
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class system_monitor_links.
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [eum_links]
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class eum_links is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class eum_links
+2018-04-11 20:43:08,990  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class eum_links: HDM_180410EUM_LINKS_1
+2018-04-11 20:43:09,060  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410EUM_LINKS_1 for class [eum_links]
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_EUM_LINKS_1 for class [eum_links]
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class eum_links
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [eum_links]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410EUM_LINKS_1
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class eum_links.
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [monitored_by]
+2018-04-11 20:43:09,085  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class monitored_by is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,085  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class monitored_by
+2018-04-11 20:43:09,085  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class monitored_by: HDM_180410MONITORED_BY_1
+2018-04-11 20:43:09,152  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410MONITORED_BY_1 for class [monitored_by]
+2018-04-11 20:43:09,171  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_MONITORED_BY_1 for class [monitored_by]
+2018-04-11 20:43:09,171  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class monitored_by
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [monitored_by]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410MONITORED_BY_1
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class monitored_by.
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [system_links]
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class system_links is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class system_links
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class system_links: HDM_180410SYSTEM_LINKS_1
+2018-04-11 20:43:09,238  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410SYSTEM_LINKS_1 for class [system_links]
+2018-04-11 20:43:09,257  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_SYSTEM_LINKS_1 for class [system_links]
+2018-04-11 20:43:09,257  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class system_links
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [system_links]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410SYSTEM_LINKS_1
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class system_links.
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [business_links]
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class business_links is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class business_links
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class business_links: HDM_180410BUSINESS_LINKS_1
+2018-04-11 20:43:09,324  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410BUSINESS_LINKS_1 for class [business_links]
+2018-04-11 20:43:09,344  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_BUSINESS_LINKS_1 for class [business_links]
+2018-04-11 20:43:09,344  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class business_links
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [business_links]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410BUSINESS_LINKS_1
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class business_links.
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [composition]
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class composition is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class composition
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class composition: HDM_180410COMPOSITION_1
+2018-04-11 20:43:09,409  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410COMPOSITION_1 for class [composition]
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_COMPOSITION_1 for class [composition]
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class composition
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [composition]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410COMPOSITION_1
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class composition.
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [containment]
+2018-04-11 20:43:09,429  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class containment is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,429  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class containment
+2018-04-11 20:43:09,429  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class containment: HDM_180410CONTAINMENT_1
+2018-04-11 20:43:09,495  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410CONTAINMENT_1 for class [containment]
+2018-04-11 20:43:09,527  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_CONTAINMENT_1 for class [containment]
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class containment
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [containment]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410CONTAINMENT_1
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class containment.
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [includes]
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class includes is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class includes
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class includes: HDM_180410INCLUDES_1
+2018-04-11 20:43:09,592  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410INCLUDES_1 for class [includes]
+2018-04-11 20:43:09,611  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_INCLUDES_1 for class [includes]
+2018-04-11 20:43:09,611  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class includes
+2018-04-11 20:43:09,612  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [includes]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410INCLUDES_1
+2018-04-11 20:43:09,612  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class includes.
+2018-04-11 20:43:09,612  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Finished alignment for class managed_relationship ------------------
+2018-04-11 20:43:09,627  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Starting alignment for class snapshot ------------------
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Align will be done for all descendant classes of class [snapshot]
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [snapshot]
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class snapshot is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class snapshot
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class snapshot: HDM_180410SNAPSHOT_1
+2018-04-11 20:43:09,691  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410SNAPSHOT_1 for class [snapshot]
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_SNAPSHOT_1 for class [snapshot]
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class snapshot
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [snapshot]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410SNAPSHOT_1
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class snapshot.
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Finished alignment for class snapshot ------------------
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Starting alignment for class ReportResult ------------------
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Align will be done for all descendant classes of class [ReportResult]
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Start align for Class [ReportResult]
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Class ReportResult is new (has no registry of current table name). Going to create history tables for it.
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Going to create history tables for class ReportResult
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Table name for class ReportResult: HDM_180410REPORTRESULT_1
+2018-04-11 20:43:09,792  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table HDM_180410REPORTRESULT_1 for class [ReportResult]
+2018-04-11 20:43:09,817  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Created table for removed CIs HDMR_REPORTRESULT_1 for class [ReportResult]
+2018-04-11 20:43:09,817  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to create history tables for class ReportResult
+2018-04-11 20:43:09,818  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Added history partition registry for class [ReportResult]: creationDate Date=4/11/18 8:43 PM, table name=HDM_180410REPORTRESULT_1
+2018-04-11 20:43:09,818  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Done creating history tables for class ReportResult.
+2018-04-11 20:43:09,818  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - ------------------ Finished alignment for class ReportResult ------------------
+2018-04-11 20:43:09,855  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Removed data history tables should exist. Starting to align classes
+2018-04-11 20:43:09,890  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to align classes
+2018-04-12 06:44:27,682  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Removed data history tables should exist. Starting to align classes
+2018-04-12 06:44:27,727  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Finished to align classes

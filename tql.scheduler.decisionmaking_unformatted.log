@@ -1,0 +1,2 @@
+2018-04-11 20:43:08,181  INFO   [Starter for "tql_res_utils" (during Writer server startup). (customer 1, id name: Default Client)] - Thread pool size for customer 1, id name: Default Client is 8
+2018-04-12 06:44:27,248  INFO   [Starter for "tql_res_utils" (during Writer server startup). (customer 1, id name: Default Client)] - Thread pool size for customer 1, id name: Default Client is 8

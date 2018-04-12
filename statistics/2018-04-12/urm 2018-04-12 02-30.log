@@ -1,0 +1,31 @@
+
+************************ Statistics from 2018-04-12 02:15:00.002 until 2018-04-12 02:30:00.014 ************************
+Operations executed: 202
+Different operation types executed: 4
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:       1 # On: 2018-04-12 02:28:36.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:26.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:16.535 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:06.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:11.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:31.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:46.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:21.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:01.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+# Millis:       0 # On: 2018-04-12 02:15:41.534 # getAll [Auth_INVALID_LOGIN]
+getAll [Auth_INVALID_LOGIN]
+ *** All operations statistics ***
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 02:28:08.164 # getAll [Topology_TQL_TRACKER]
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 02:29:56.534 # getAll [Auth_INVALID_LOGIN]
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 02:27:15.901 # getAll [Topology_TQL]
+# Avg (ms):       0 # Max (ms):       0 # Count:    16 # Last called: 2018-04-12 02:29:59.775 # getAll [License_LICENSE]

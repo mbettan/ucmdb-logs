@@ -1,0 +1,4 @@
+2018-04-11 20:42:19,281  ERROR  [main] - org.apache.wink.server.internal.providers.entity.html.HtmlProvider is not a class. Ignoring.
+2018-04-11 20:42:58,036  INFO   [main] - Building of configuration completed in 99 milliseconds.
+2018-04-12 06:42:42,828  ERROR  [main] - org.apache.wink.server.internal.providers.entity.html.HtmlProvider is not a class. Ignoring.
+2018-04-12 06:42:54,534  INFO   [main] - Building of configuration completed in 119 milliseconds.

@@ -1,0 +1,3625 @@
+"RequestProcessorAsyncPool-496" Id=496 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@230f9875
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@230f9875
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"controller thread pool-495" Id=495 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Incoming-28,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=494 WAITING  THREADS - [Count: 398] on java.util.concurrent.SynchronousQueue$TransferStack@29f7f305
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@29f7f305
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:458)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:924)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-492" Id=492 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cf5785f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cf5785f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"process reaper" Id=490 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.SynchronousQueue$TransferStack@33e68984
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@33e68984
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"RequestProcessorAsyncPool-489" Id=489 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@230f9875
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@230f9875
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"controller thread pool-478" Id=478 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-472" Id=472 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cf5785f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cf5785f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"OracleTimeoutPollingThread" Id=433 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at oracle.jdbc.driver.OracleTimeoutPollingThread.run(OracleTimeoutPollingThread.java:148)
+
+
+"Thread-331" Id=432 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5dd396ce
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5dd396ce
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.hp.ucmdb.discovery.server.accuratedependencies.processing.DefaultSearchRequestProcessor.run(DefaultSearchRequestProcessor.java:34)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Discovery Probe Task-431" Id=431 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4b2a39aa
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4b2a39aa
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"TasksDispatchingThread" Id=430 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@cda8710
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@cda8710
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.hp.ucmdb.discovery.server.utils.disptach.DispatchManagerImpl$DispatchingThread.authorizedRun(DispatchManagerImpl.java:1140)
+	at com.hp.ucmdb.discovery.server.utils.AbstractAuthorizedThread$1.executeInContext(AbstractAuthorizedThread.java:26)
+	at com.hp.ucmdb.discovery.server.utils.AbstractAuthorizedThread$1.executeInContext(AbstractAuthorizedThread.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.AuthorizationContextUtils.executeInSystemAuthorizationContext(AuthorizationContextUtils.java:24)
+	at com.hp.ucmdb.discovery.server.utils.AbstractAuthorizedThread.run(AbstractAuthorizedThread.java:23)
+
+
+"Enrichment Calculator Task-427" Id=427 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@bf795a6
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@bf795a6
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"ScenarioLogWriter" Id=424 WAITING  THREADS - [Count: 398] on com.mercury.topaz.cmdb.server.util.statemachine.ScenarioLogWriter@4ad317f0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on com.mercury.topaz.cmdb.server.util.statemachine.ScenarioLogWriter@4ad317f0
+	at java.lang.Object.wait(Object.java:502)
+	at com.mercury.topaz.cmdb.server.util.statemachine.ScenarioLogWriter.run(ScenarioLogWriter.java:83)
+
+
+"Thread-323" Id=422 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@502e9069
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@502e9069
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.mercury.topaz.cmdb.server.tql.manager.impl.TqlResultRepositoryCacheManagerImpl$VirtualTqlResultChangesNotifier.run(TqlResultRepositoryCacheManagerFactory.java:1107)
+
+
+"Tql Pattern Calc Process Task-423" Id=423 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@8947f7b
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@8947f7b
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-21-thread-1" Id=421 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3f79816a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3f79816a
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"DestroyJavaVM" Id=420 RUNNABLE  THREADS - [Count: 398]
+
+
+"pool-17-thread-5" Id=417 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-12-thread-2" Id=416 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@494e15eb
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@494e15eb
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Thread-321" Id=415 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@628ad41e
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@628ad41e
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.hp.autopassj.core.events.AutopassFeatureEventListener$AutopassFeatureEventWorkerThread.run(AutopassFeatureEventListener.java:110)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-17-thread-4" Id=411 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-17-thread-3" Id=410 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-20-thread-1" Id=409 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@118b6bf4
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@118b6bf4
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-12-thread-1" Id=408 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@494e15eb
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@494e15eb
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"controller thread pool-400" Id=400 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc87264
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-19-thread-4" Id=397 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-19-thread-3" Id=396 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Scheduler-1979825302" Id=392 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7ead1812
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7ead1812
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"INT-2,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=391 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4a3309fd
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4a3309fd
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"INT-1,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=390 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4a3309fd
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4a3309fd
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Deployment Task-389" Id=389 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2d1f84
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2d1f84
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task5-388" Id=388 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6a5064a7
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6a5064a7
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task4-387" Id=387 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7cab9c77
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7cab9c77
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task3-386" Id=386 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2e050efe
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2e050efe
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task2-385" Id=385 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@463cf585
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@463cf585
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task1-384" Id=384 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f20d4b9
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f20d4b9
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"notification_publish_task0-383" Id=383 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@f48bd0e
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@f48bd0e
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"UCMDB - scheduler for customer 1, id name: Default Client" Id=382 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@9bc30e7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@9bc30e7
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"DisruptorThread" Id=381 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@288d6c88
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@288d6c88
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at com.lmax.disruptor.BlockingWaitStrategy.waitFor(BlockingWaitStrategy.java:45)
+	at com.lmax.disruptor.ProcessingSequenceBarrier.waitFor(ProcessingSequenceBarrier.java:55)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6cac13ed
+
+
+"pool-19-thread-2" Id=378 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-19-thread-1" Id=377 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4775ac5a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-7-thread-1" Id=376 RUNNABLE  THREADS - [Count: 398]
+	at java.util.StringTokenizer.<init>(StringTokenizer.java:236)
+	at java.lang.Runtime.exec(Runtime.java:446)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.mercury.topaz.cmdb.server.util.process.NativeProcessExecutor.exec(NativeProcessExecutor.java:46)
+	at com.mercury.topaz.cmdb.server.manage.stats.OSMonitor.getState(OSMonitor.java:69)
+	at com.mercury.topaz.cmdb.server.manage.stats.OSMonitor.dumpState(OSMonitor.java:30)
+	at com.mercury.topaz.cmdb.server.manage.JVMStatePoller$2.run(JVMStatePoller.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@1717e88e
+
+
+"pool-6-thread-1" Id=375 RUNNABLE  THREADS - [Count: 398]
+	at sun.misc.FloatingDecimal$BinaryToASCIIBuffer.dtoa(FloatingDecimal.java:683)
+	at sun.misc.FloatingDecimal$BinaryToASCIIBuffer.access$100(FloatingDecimal.java:259)
+	at sun.misc.FloatingDecimal.getBinaryToASCIIConverter(FloatingDecimal.java:1785)
+	at sun.misc.FloatingDecimal.getBinaryToASCIIConverter(FloatingDecimal.java:1738)
+	at java.text.DigitList.set(DigitList.java:291)
+	at java.text.DecimalFormat.format(DecimalFormat.java:621)
+	-  locked java.text.DigitList@121f03c
+	at java.text.DecimalFormat.format(DecimalFormat.java:544)
+	at java.text.NumberFormat.format(NumberFormat.java:296)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.toMegs(JvmMonitor.java:375)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.getMemoryState(JvmMonitor.java:352)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.getState(JvmMonitor.java:309)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.dumpState(JvmMonitor.java:38)
+	at com.mercury.topaz.cmdb.server.manage.JVMStatePoller$1.run(JVMStatePoller.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@52156ca8
+
+
+"pool-17-thread-2" Id=374 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-17-thread-1" Id=373 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6dc76de2
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Thread-301" Id=372 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4bcb9ddb
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4bcb9ddb
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.hp.autopassj.core.events.EventQueueManager$EventNotifier.run(EventQueueManager.java:84)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-16-thread-1" Id=371 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2398a74d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2398a74d
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-14-thread-2" Id=370 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6032669a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6032669a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-15-thread-1" Id=369 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6e9cdab0
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6e9cdab0
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"pool-14-thread-1" Id=368 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6032669a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6032669a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-3" Id=366 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@79aeb7fd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@79aeb7fd
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"qtp100048427-364-acceptor-0@5dc99567-HTTPS_CLIENT_AUTH@530e60ae{SSL-HTTP/1.1}{0.0.0.0:8444}" Id=364 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:250)
+	-  locked java.lang.Object@1fead54a
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Controller" Id=363 TIMED_WAITING  THREADS - [Count: 398] on com.mercury.topaz.cmdb.server.manage.instance.Controller@6c1f769b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on com.mercury.topaz.cmdb.server.manage.instance.Controller@6c1f769b
+	at com.mercury.topaz.cmdb.server.manage.instance.Controller.waitForTrigger(Controller.java:171)
+	at com.mercury.topaz.cmdb.server.manage.instance.Controller.run(Controller.java:96)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-362-selector-ServerConnectorManager@711f47d1/3" Id=362 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@64de68f2
+	-  locked java.util.Collections$UnmodifiableSet@68c33acb
+	-  locked sun.nio.ch.EPollSelectorImpl@214ae21c
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-360-selector-ServerConnectorManager@711f47d1/2" Id=360 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@3676e300
+	-  locked java.util.Collections$UnmodifiableSet@21f894c4
+	-  locked sun.nio.ch.EPollSelectorImpl@501cf752
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-359-selector-ServerConnectorManager@711f47d1/1" Id=359 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@2630a54f
+	-  locked java.util.Collections$UnmodifiableSet@275f2c6a
+	-  locked sun.nio.ch.EPollSelectorImpl@4264c2f1
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-358-selector-ServerConnectorManager@711f47d1/0" Id=358 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@75750b88
+	-  locked java.util.Collections$UnmodifiableSet@56ccd2b4
+	-  locked sun.nio.ch.EPollSelectorImpl@82e987b
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-356-acceptor-0@6c24a219-HTTPS@62e351ed{SSL-HTTP/1.1}{0.0.0.0:8443}" Id=356 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:250)
+	-  locked java.lang.Object@6c39b0c5
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-355-selector-ServerConnectorManager@4ce59592/3" Id=355 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@314dcf81
+	-  locked java.util.Collections$UnmodifiableSet@124f26e
+	-  locked sun.nio.ch.EPollSelectorImpl@7d354f71
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@7200ac94Timer" Id=354 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5cab678a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5cab678a
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@29726180Timer" Id=353 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3459a59
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3459a59
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher" Id=352 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2554bfdd
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2554bfdd
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:549)
+	at com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher.handleJwtTokenQueue(WebRequestContextUtils.java:367)
+	at com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher.run(WebRequestContextUtils.java:442)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"CmdbLifeCycleManager periodic customers detection" Id=351 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.sleepForCmdbLifecycleManager(CmdbLifeCycleManagerImpl.java:168)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.pingCustomers(CmdbLifeCycleManagerImpl.java:162)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.access$000(CmdbLifeCycleManagerImpl.java:32)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl$1.run(CmdbLifeCycleManagerImpl.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@48ac4201Timer" Id=350 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72cd32c1
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72cd32c1
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@279b83eaTimer" Id=349 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@755d8c25
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@755d8c25
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@60035f1eTimer" Id=348 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a655785
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a655785
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Thread-288" Id=347 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at com.hp.ucmdb.rest.uiserver.annotation.impl.ReloadPerformanceLogConfig.run(ReloadPerformanceLogConfig.java:39)
+	-  locked com.hp.ucmdb.rest.uiserver.annotation.impl.ReloadPerformanceLogConfig@5a4fa143
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@3c89fdd8Timer" Id=346 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@418fdbf1
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@418fdbf1
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Thread-287" Id=345 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at com.hp.ucmdb.rest.uiserver.annotation.impl.ReloadPerformanceLogConfig.run(ReloadPerformanceLogConfig.java:39)
+	-  locked com.hp.ucmdb.rest.uiserver.annotation.impl.ReloadPerformanceLogConfig@58aa4b41
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@576b385dTimer" Id=344 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2803e6ae
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2803e6ae
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@727f36ddTimer" Id=343 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@fe11f54
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@fe11f54
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@50e6ee24Timer" Id=342 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@308e0d0a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@308e0d0a
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@443253a6Timer" Id=341 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a74a819
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a74a819
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-2" Id=339 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@d751f6f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@d751f6f
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Timer-1" Id=338 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@ae9aa2a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@ae9aa2a
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@273fa9eTimer" Id=337 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4acf1020
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4acf1020
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@256a0d95Timer" Id=336 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@55e45d00
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@55e45d00
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1f84327bTimer" Id=335 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@704faeb4
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@704faeb4
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@27960b1eTimer" Id=334 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37b0f26d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37b0f26d
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@6637a365Timer" Id=333 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54cbaab
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54cbaab
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@7f0a133dTimer" Id=332 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72b7eb5f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72b7eb5f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@4017fe2cTimer" Id=331 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f00c1b3
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f00c1b3
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher" Id=330 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4f1377a4
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4f1377a4
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:549)
+	at com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher.handleJwtTokenQueue(WebRequestContextUtils.java:367)
+	at com.hp.ccue.identity.util.WebRequestContextUtils$AuthenticationTokenRefresher.run(WebRequestContextUtils.java:442)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1a2e0d57Timer" Id=329 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2fea050f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2fea050f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@4d98e41bTimer" Id=328 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@624afebe
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@624afebe
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@740dcae3Timer" Id=327 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1b3ea61d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1b3ea61d
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@5934ca1eTimer" Id=326 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4f445c89
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4f445c89
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@52f6900aTimer" Id=325 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@30f9fa13
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@30f9fa13
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-324-selector-ServerConnectorManager@4ce59592/2" Id=324 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@5735dbc
+	-  locked java.util.Collections$UnmodifiableSet@6b930d41
+	-  locked sun.nio.ch.EPollSelectorImpl@6deb4ae
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-323-selector-ServerConnectorManager@4ce59592/1" Id=323 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@7988ef04
+	-  locked java.util.Collections$UnmodifiableSet@6609d334
+	-  locked sun.nio.ch.EPollSelectorImpl@150333b1
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-322-selector-ServerConnectorManager@4ce59592/0" Id=322 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@660b8e7b
+	-  locked java.util.Collections$UnmodifiableSet@5845bd71
+	-  locked sun.nio.ch.EPollSelectorImpl@707d453e
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-321-acceptor-0@576e0de6-HTTP@59a9f97b{HTTP/1.1}{0.0.0.0:8080}" Id=321 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:250)
+	-  locked java.lang.Object@7cef6e3b
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-320-selector-ServerConnectorManager@1d27720/3" Id=320 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@46ad4f8b
+	-  locked java.util.Collections$UnmodifiableSet@33f6dc1a
+	-  locked sun.nio.ch.EPollSelectorImpl@29382bef
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-319-selector-ServerConnectorManager@1d27720/2" Id=319 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@2ea10645
+	-  locked java.util.Collections$UnmodifiableSet@25cc50d
+	-  locked sun.nio.ch.EPollSelectorImpl@74fdf50
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-318-selector-ServerConnectorManager@1d27720/1" Id=318 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@6fc0eb05
+	-  locked java.util.Collections$UnmodifiableSet@49754b96
+	-  locked sun.nio.ch.EPollSelectorImpl@2de58b18
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"qtp100048427-317-selector-ServerConnectorManager@1d27720/0" Id=317 RUNNABLE  THREADS - [Count: 398] (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@542964ab
+	-  locked java.util.Collections$UnmodifiableSet@3c5935e8
+	-  locked sun.nio.ch.EPollSelectorImpl@5f13f00e
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:596)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:545)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-0" Id=315 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@5eaf1dbf
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@5eaf1dbf
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"metrics-periodical-clearing-csv-reporter-1-thread-1" Id=314 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41bc36fd
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41bc36fd
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Thread Dump Scheduler" Id=313 RUNNABLE  THREADS - [Count: 398]
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.saveThreadDumpFile(JvmMonitor.java:202)
+	at com.mercury.topaz.cmdb.server.manage.stats.JvmMonitor.generateThreadDumpLog(JvmMonitor.java:63)
+	at com.mercury.topaz.cmdb.server.manage.threaddumps.JvmThreadDumpCreator.execute(JvmThreadDumpCreator.java:75)
+	at com.mercury.topaz.cmdb.server.base.itc.schedule.Scheduler$TaskWrapper.doExecute(Scheduler.java:242)
+	at com.mercury.topaz.cmdb.server.base.itc.schedule.Scheduler$TaskWrapper.access$000(Scheduler.java:201)
+	at com.mercury.topaz.cmdb.server.base.itc.schedule.Scheduler$TaskWrapper$1.executeInContext(Scheduler.java:229)
+	at com.mercury.topaz.cmdb.server.base.itc.schedule.Scheduler$TaskWrapper$1.executeInContext(Scheduler.java:226)
+	at com.mercury.topaz.cmdb.shared.manage.AuthorizationContextUtils.executeInSystemAuthorizationContext(AuthorizationContextUtils.java:24)
+	at com.mercury.topaz.cmdb.server.base.itc.schedule.Scheduler$TaskWrapper.run(Scheduler.java:226)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Timer-5,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=312 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-4,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=311 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-3,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=310 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"FD_SOCK acceptor,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=309 RUNNABLE  THREADS - [Count: 398] (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at org.jgroups.protocols.FD_SOCK$ServerSocketHandler.run(FD_SOCK.java:1066)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"ConnectionMap.Acceptor [172.16.10.11:7800],null,null" Id=306 RUNNABLE  THREADS - [Count: 398] (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at org.jgroups.blocks.TCPConnectionMap$Acceptor.run(TCPConnectionMap.java:285)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"TransferQueueBundler,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=308 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@74eca85e
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@74eca85e
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.jgroups.protocols.TP$TransferQueueBundler.run(TP.java:2692)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"DiagnosticsHandler,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=307 RUNNABLE  THREADS - [Count: 398] (in native)
+	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@52081199
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+	-  locked java.net.PlainDatagramSocketImpl@52081199
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812)
+	-  locked java.net.DatagramPacket@7223cefb
+	-  locked java.net.MulticastSocket@3b3f80fd
+	at org.jgroups.stack.DiagnosticsHandler.run(DiagnosticsHandler.java:121)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer-2,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=305 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@343fad57
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Timer runner-1,oracle_ucmdbuser,hcm-ucmdb-5888469bfd-868kx" Id=302 TIMED_WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2a00719c
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2a00719c
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2163)
+	at org.jgroups.util.TimeScheduler2.waitUntilNextExecution(TimeScheduler2.java:300)
+	at org.jgroups.util.TimeScheduler2._run(TimeScheduler2.java:282)
+	at org.jgroups.util.TimeScheduler2.run(TimeScheduler2.java:244)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"HA Network adapter async execution" Id=300 WAITING  THREADS - [Count: 398] on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3896399c
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3896399c
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at com.mercury.topaz.cmdb.server.manage.ha.impl.HANetworkAdapter$AsyncExecutionRunnable.run(HANetworkAdapter.java:718)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"HAModelsManagerImpl update model thread" Id=299 WAITING  THREADS - [Count: 398] on java.lang.Object@54ae6c63
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@54ae6c63
+	at java.lang.Object.wait(Object.java:502)
+	at com.mercury.topaz.cmdb.server.manage.ha.remote.HAModelsManagerImpl.doUpdateModels(HAModelsManagerImpl.java:156)
+	at com.mercury.topaz.cmdb.server.manage.ha.remote.HAModelsManagerImpl.access$000(HAModelsManagerImpl.java:26)
+	at com.mercury.topaz.cmdb.server.manage.ha.remote.HAModelsManagerImpl$1.run(HAModelsManagerImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Request processor timer" Id=298 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@13512663
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@13512663
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser" Id=295 TIMED_WAITING  THREADS - [Count: 398] on oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser@3a743904
+	at java.lang.Object.wait(Native Method)
+	-  waiting on oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser@3a743904
+	at oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:327)
+
+
+"HA Heartbeat scheduler" Id=294 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@3327ad0f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@3327ad0f
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"UCMDB - global framework scheduler" Id=293 TIMED_WAITING  THREADS - [Count: 398] on java.util.TaskQueue@144d027c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@144d027c
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"AsyncAppender-Dispatcher-Thread-265" Id=292 WAITING  THREADS - [Count: 398] on java.util.ArrayList@eb55ca8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@eb55ca8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-264" Id=291 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1512e863
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1512e863
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-263" Id=290 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1bd3601b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1bd3601b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-262" Id=289 WAITING  THREADS - [Count: 398] on java.util.ArrayList@67f1dfff
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@67f1dfff
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-261" Id=288 WAITING  THREADS - [Count: 398] on java.util.ArrayList@43859fb5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@43859fb5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-260" Id=287 WAITING  THREADS - [Count: 398] on java.util.ArrayList@41d63656
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@41d63656
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-259" Id=286 WAITING  THREADS - [Count: 398] on java.util.ArrayList@418555cf
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@418555cf
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-258" Id=285 WAITING  THREADS - [Count: 398] on java.util.ArrayList@28626427
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@28626427
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-257" Id=284 WAITING  THREADS - [Count: 398] on java.util.ArrayList@47752ea9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@47752ea9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-256" Id=283 WAITING  THREADS - [Count: 398] on java.util.ArrayList@37e1c497
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@37e1c497
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-255" Id=282 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5c21d489
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5c21d489
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-254" Id=281 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6759c076
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6759c076
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-253" Id=280 WAITING  THREADS - [Count: 398] on java.util.ArrayList@9b7aa52
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@9b7aa52
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-252" Id=279 WAITING  THREADS - [Count: 398] on java.util.ArrayList@30cb028f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@30cb028f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-251" Id=278 WAITING  THREADS - [Count: 398] on java.util.ArrayList@621c1d83
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@621c1d83
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-250" Id=277 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4bef3bc6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4bef3bc6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-249" Id=276 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7f3efdd3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7f3efdd3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-248" Id=275 WAITING  THREADS - [Count: 398] on java.util.ArrayList@178947c1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@178947c1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-247" Id=274 WAITING  THREADS - [Count: 398] on java.util.ArrayList@15fba0b6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@15fba0b6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-246" Id=273 WAITING  THREADS - [Count: 398] on java.util.ArrayList@277898c4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@277898c4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-245" Id=272 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2fa0399d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2fa0399d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-244" Id=271 WAITING  THREADS - [Count: 398] on java.util.ArrayList@72cad4e7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@72cad4e7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-243" Id=270 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3afc3418
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3afc3418
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-242" Id=269 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5921253b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5921253b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-241" Id=268 WAITING  THREADS - [Count: 398] on java.util.ArrayList@77e38353
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@77e38353
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-240" Id=267 WAITING  THREADS - [Count: 398] on java.util.ArrayList@53aa0ca4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@53aa0ca4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-239" Id=266 WAITING  THREADS - [Count: 398] on java.util.ArrayList@8adae3d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@8adae3d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-238" Id=265 WAITING  THREADS - [Count: 398] on java.util.ArrayList@58755aee
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@58755aee
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-237" Id=264 WAITING  THREADS - [Count: 398] on java.util.ArrayList@33e7a3a8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@33e7a3a8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-236" Id=263 WAITING  THREADS - [Count: 398] on java.util.ArrayList@302b565c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@302b565c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-235" Id=262 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5592da22
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5592da22
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-234" Id=261 WAITING  THREADS - [Count: 398] on java.util.ArrayList@27424854
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@27424854
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-233" Id=260 WAITING  THREADS - [Count: 398] on java.util.ArrayList@293645f7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@293645f7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-232" Id=259 WAITING  THREADS - [Count: 398] on java.util.ArrayList@43456f3b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@43456f3b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-231" Id=258 WAITING  THREADS - [Count: 398] on java.util.ArrayList@45febb
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@45febb
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-230" Id=257 WAITING  THREADS - [Count: 398] on java.util.ArrayList@35f0060f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@35f0060f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-229" Id=256 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2e72e4bb
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2e72e4bb
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-228" Id=255 WAITING  THREADS - [Count: 398] on java.util.ArrayList@46a67af9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@46a67af9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-227" Id=254 WAITING  THREADS - [Count: 398] on java.util.ArrayList@69b9e4b0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@69b9e4b0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-226" Id=253 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5ccc47f6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5ccc47f6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-225" Id=252 WAITING  THREADS - [Count: 398] on java.util.ArrayList@65a227e8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@65a227e8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-224" Id=251 WAITING  THREADS - [Count: 398] on java.util.ArrayList@10a6e817
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@10a6e817
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-223" Id=250 WAITING  THREADS - [Count: 398] on java.util.ArrayList@361c12d7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@361c12d7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-222" Id=249 WAITING  THREADS - [Count: 398] on java.util.ArrayList@8d11015
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@8d11015
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-221" Id=248 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7c38eb80
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7c38eb80
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-220" Id=247 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5bf95240
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5bf95240
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-219" Id=246 WAITING  THREADS - [Count: 398] on java.util.ArrayList@da57942
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@da57942
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-218" Id=245 WAITING  THREADS - [Count: 398] on java.util.ArrayList@d74815b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@d74815b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-217" Id=244 WAITING  THREADS - [Count: 398] on java.util.ArrayList@36ab0f9e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@36ab0f9e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-216" Id=243 WAITING  THREADS - [Count: 398] on java.util.ArrayList@27512059
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@27512059
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-215" Id=242 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1982298
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1982298
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-214" Id=241 WAITING  THREADS - [Count: 398] on java.util.ArrayList@284f15a9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@284f15a9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-213" Id=240 WAITING  THREADS - [Count: 398] on java.util.ArrayList@467638c1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@467638c1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-212" Id=239 WAITING  THREADS - [Count: 398] on java.util.ArrayList@688b9bbe
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@688b9bbe
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-211" Id=238 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2847f8d5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2847f8d5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-210" Id=237 WAITING  THREADS - [Count: 398] on java.util.ArrayList@78f54229
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@78f54229
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-209" Id=236 WAITING  THREADS - [Count: 398] on java.util.ArrayList@f32cdc6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@f32cdc6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-208" Id=235 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3b50f1f5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3b50f1f5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-207" Id=234 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2cc6271a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2cc6271a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-206" Id=233 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7ef0cca1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7ef0cca1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-205" Id=232 WAITING  THREADS - [Count: 398] on java.util.ArrayList@67357244
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@67357244
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-204" Id=231 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5b56f80e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5b56f80e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-203" Id=230 WAITING  THREADS - [Count: 398] on java.util.ArrayList@46b5ea89
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@46b5ea89
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-202" Id=229 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3e58a33a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3e58a33a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-201" Id=228 WAITING  THREADS - [Count: 398] on java.util.ArrayList@723341e7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@723341e7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-200" Id=227 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1ec95127
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1ec95127
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-199" Id=226 WAITING  THREADS - [Count: 398] on java.util.ArrayList@774111d5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@774111d5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-198" Id=225 WAITING  THREADS - [Count: 398] on java.util.ArrayList@c7b2d74
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@c7b2d74
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-197" Id=224 WAITING  THREADS - [Count: 398] on java.util.ArrayList@64af6965
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@64af6965
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-196" Id=223 WAITING  THREADS - [Count: 398] on java.util.ArrayList@30bb5cbe
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@30bb5cbe
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-195" Id=222 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4f0b3cc5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4f0b3cc5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-194" Id=221 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1aceb8dd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1aceb8dd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-193" Id=220 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5b51ea0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5b51ea0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-192" Id=219 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6f81fc04
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6f81fc04
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-191" Id=218 WAITING  THREADS - [Count: 398] on java.util.ArrayList@79fa1825
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@79fa1825
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-190" Id=217 WAITING  THREADS - [Count: 398] on java.util.ArrayList@169d4f97
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@169d4f97
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-189" Id=216 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3bf013fa
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3bf013fa
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-188" Id=215 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5b71a95c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5b71a95c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-187" Id=214 WAITING  THREADS - [Count: 398] on java.util.ArrayList@72e3b927
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@72e3b927
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-186" Id=213 WAITING  THREADS - [Count: 398] on java.util.ArrayList@efea11b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@efea11b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-185" Id=212 WAITING  THREADS - [Count: 398] on java.util.ArrayList@352a1cfd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@352a1cfd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-184" Id=211 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6347684d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6347684d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-183" Id=210 WAITING  THREADS - [Count: 398] on java.util.ArrayList@c02cf83
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@c02cf83
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-182" Id=209 WAITING  THREADS - [Count: 398] on java.util.ArrayList@778f4161
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@778f4161
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-181" Id=208 WAITING  THREADS - [Count: 398] on java.util.ArrayList@12277699
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@12277699
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-180" Id=207 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4a7a7190
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4a7a7190
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-179" Id=206 WAITING  THREADS - [Count: 398] on java.util.ArrayList@501ed18b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@501ed18b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-178" Id=205 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5d9716a0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5d9716a0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-177" Id=204 WAITING  THREADS - [Count: 398] on java.util.ArrayList@742d3035
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@742d3035
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-176" Id=203 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6d4239d1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6d4239d1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-175" Id=202 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4b763f7b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4b763f7b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-174" Id=201 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2eb102a3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2eb102a3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-173" Id=200 WAITING  THREADS - [Count: 398] on java.util.ArrayList@330023d8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@330023d8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-172" Id=199 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4f7008d8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4f7008d8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-171" Id=198 WAITING  THREADS - [Count: 398] on java.util.ArrayList@35076baa
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@35076baa
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-170" Id=197 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1385c3b3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1385c3b3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-169" Id=196 WAITING  THREADS - [Count: 398] on java.util.ArrayList@21292cf8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@21292cf8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-168" Id=195 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6ed0d6cd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6ed0d6cd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-167" Id=194 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6004aa86
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6004aa86
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-166" Id=193 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5d21656e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5d21656e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-165" Id=192 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3507dcde
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3507dcde
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-164" Id=191 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5d09120d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5d09120d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-163" Id=190 WAITING  THREADS - [Count: 398] on java.util.ArrayList@181cc3b0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@181cc3b0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-162" Id=189 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4ec0cfc8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4ec0cfc8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-161" Id=188 WAITING  THREADS - [Count: 398] on java.util.ArrayList@45aa0be2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@45aa0be2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-160" Id=187 WAITING  THREADS - [Count: 398] on java.util.ArrayList@50a6f020
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@50a6f020
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-159" Id=186 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2ed9b8c7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2ed9b8c7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-158" Id=185 WAITING  THREADS - [Count: 398] on java.util.ArrayList@662f8c5b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@662f8c5b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-157" Id=184 WAITING  THREADS - [Count: 398] on java.util.ArrayList@734f6e67
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@734f6e67
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-156" Id=183 WAITING  THREADS - [Count: 398] on java.util.ArrayList@140fa7de
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@140fa7de
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-155" Id=182 WAITING  THREADS - [Count: 398] on java.util.ArrayList@77f32a18
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@77f32a18
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-154" Id=181 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6da43de9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6da43de9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-153" Id=180 WAITING  THREADS - [Count: 398] on java.util.ArrayList@65105a6c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@65105a6c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-152" Id=179 WAITING  THREADS - [Count: 398] on java.util.ArrayList@cc82047
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@cc82047
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-151" Id=178 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6285682c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6285682c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-150" Id=177 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2e824ae0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2e824ae0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-149" Id=176 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4926a666
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4926a666
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-148" Id=175 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4a16d1d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4a16d1d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-147" Id=174 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4dacb1ad
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4dacb1ad
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-146" Id=173 WAITING  THREADS - [Count: 398] on java.util.ArrayList@71c527b2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@71c527b2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-145" Id=172 WAITING  THREADS - [Count: 398] on java.util.ArrayList@d2cba7a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@d2cba7a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-144" Id=171 WAITING  THREADS - [Count: 398] on java.util.ArrayList@26af747
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@26af747
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-143" Id=170 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2a631f7e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2a631f7e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-142" Id=169 WAITING  THREADS - [Count: 398] on java.util.ArrayList@72434537
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@72434537
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-141" Id=168 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1ad4de6f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1ad4de6f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-140" Id=167 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4fd1c2bd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4fd1c2bd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-139" Id=166 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7dfbacd6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7dfbacd6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-138" Id=165 WAITING  THREADS - [Count: 398] on java.util.ArrayList@15f934a3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@15f934a3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-137" Id=164 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2962b7d5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2962b7d5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-136" Id=163 WAITING  THREADS - [Count: 398] on java.util.ArrayList@68e74c6e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@68e74c6e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-135" Id=162 WAITING  THREADS - [Count: 398] on java.util.ArrayList@48dad0b8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@48dad0b8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-134" Id=161 WAITING  THREADS - [Count: 398] on java.util.ArrayList@145aa92c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@145aa92c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-133" Id=160 WAITING  THREADS - [Count: 398] on java.util.ArrayList@283a786d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@283a786d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-132" Id=159 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7a6cc538
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7a6cc538
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-131" Id=158 WAITING  THREADS - [Count: 398] on java.util.ArrayList@64ad95dd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@64ad95dd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-130" Id=157 WAITING  THREADS - [Count: 398] on java.util.ArrayList@25ff43ad
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@25ff43ad
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-129" Id=156 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5efdae6f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5efdae6f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-128" Id=155 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4224f58d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4224f58d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-127" Id=154 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4a2f8369
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4a2f8369
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-126" Id=153 WAITING  THREADS - [Count: 398] on java.util.ArrayList@151243aa
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@151243aa
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-125" Id=152 WAITING  THREADS - [Count: 398] on java.util.ArrayList@26af09b1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@26af09b1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-124" Id=151 WAITING  THREADS - [Count: 398] on java.util.ArrayList@43420874
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@43420874
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-123" Id=150 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7540efbe
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7540efbe
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-122" Id=149 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7248edaf
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7248edaf
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-121" Id=148 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2c7490d6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2c7490d6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-120" Id=147 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7fa63c84
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7fa63c84
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-119" Id=146 WAITING  THREADS - [Count: 398] on java.util.ArrayList@d6901d1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@d6901d1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-118" Id=145 WAITING  THREADS - [Count: 398] on java.util.ArrayList@38f9b046
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@38f9b046
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-117" Id=144 WAITING  THREADS - [Count: 398] on java.util.ArrayList@308375af
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@308375af
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-116" Id=143 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7e0f2d27
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7e0f2d27
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-115" Id=142 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3b2ddcbe
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3b2ddcbe
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-114" Id=141 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4e23301d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4e23301d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-113" Id=140 WAITING  THREADS - [Count: 398] on java.util.ArrayList@65260a7b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@65260a7b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-112" Id=139 WAITING  THREADS - [Count: 398] on java.util.ArrayList@62c765ed
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@62c765ed
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-111" Id=138 WAITING  THREADS - [Count: 398] on java.util.ArrayList@37da8d27
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@37da8d27
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-110" Id=137 WAITING  THREADS - [Count: 398] on java.util.ArrayList@60aee019
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@60aee019
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-109" Id=136 WAITING  THREADS - [Count: 398] on java.util.ArrayList@350e4ba5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@350e4ba5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-108" Id=135 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6cbfb8e4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6cbfb8e4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-107" Id=134 WAITING  THREADS - [Count: 398] on java.util.ArrayList@f6fa3e1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@f6fa3e1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-106" Id=133 WAITING  THREADS - [Count: 398] on java.util.ArrayList@18d6343d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@18d6343d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-105" Id=132 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5f4217e1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5f4217e1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-104" Id=131 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4e2bfc75
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4e2bfc75
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-103" Id=130 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3ca92efa
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3ca92efa
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-102" Id=129 WAITING  THREADS - [Count: 398] on java.util.ArrayList@15f7928e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@15f7928e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-101" Id=128 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5a4562ce
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5a4562ce
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-100" Id=127 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4b9ce5a7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4b9ce5a7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-99" Id=126 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3eb7dcd0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3eb7dcd0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-98" Id=125 WAITING  THREADS - [Count: 398] on java.util.ArrayList@17fd5a6a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@17fd5a6a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-97" Id=124 WAITING  THREADS - [Count: 398] on java.util.ArrayList@665f1949
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@665f1949
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-96" Id=123 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4ac269f8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4ac269f8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-95" Id=122 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4a137d2c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4a137d2c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-94" Id=121 WAITING  THREADS - [Count: 398] on java.util.ArrayList@37c0500e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@37c0500e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-93" Id=120 WAITING  THREADS - [Count: 398] on java.util.ArrayList@294b82ee
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@294b82ee
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-92" Id=119 WAITING  THREADS - [Count: 398] on java.util.ArrayList@701fb396
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@701fb396
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-91" Id=118 WAITING  THREADS - [Count: 398] on java.util.ArrayList@21345aa4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@21345aa4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-90" Id=117 WAITING  THREADS - [Count: 398] on java.util.ArrayList@14c12eac
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@14c12eac
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-89" Id=116 WAITING  THREADS - [Count: 398] on java.util.ArrayList@61688228
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@61688228
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-88" Id=115 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6c661e90
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6c661e90
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-87" Id=114 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6f8488c2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6f8488c2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-86" Id=113 WAITING  THREADS - [Count: 398] on java.util.ArrayList@722d7fd0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@722d7fd0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-85" Id=112 WAITING  THREADS - [Count: 398] on java.util.ArrayList@57f1ca7f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@57f1ca7f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-84" Id=111 WAITING  THREADS - [Count: 398] on java.util.ArrayList@b3fdc8f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@b3fdc8f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-83" Id=110 WAITING  THREADS - [Count: 398] on java.util.ArrayList@40b697b2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@40b697b2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-82" Id=109 WAITING  THREADS - [Count: 398] on java.util.ArrayList@597ca38b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@597ca38b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-81" Id=108 WAITING  THREADS - [Count: 398] on java.util.ArrayList@8728e9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@8728e9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-80" Id=107 WAITING  THREADS - [Count: 398] on java.util.ArrayList@752947d2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@752947d2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-79" Id=106 WAITING  THREADS - [Count: 398] on java.util.ArrayList@15655c2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@15655c2
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-78" Id=105 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3d0ade98
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3d0ade98
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-77" Id=104 RUNNABLE  THREADS - [Count: 398]
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-76" Id=103 WAITING  THREADS - [Count: 398] on java.util.ArrayList@47369b0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@47369b0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-75" Id=102 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3bdba93b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3bdba93b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-74" Id=101 WAITING  THREADS - [Count: 398] on java.util.ArrayList@81003c7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@81003c7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-73" Id=100 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6305f243
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6305f243
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-72" Id=99 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7ca4297a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7ca4297a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-71" Id=98 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1a50d5a4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1a50d5a4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-70" Id=97 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1256f312
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1256f312
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-69" Id=96 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5e8d9cf1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5e8d9cf1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-68" Id=95 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3bf91a3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3bf91a3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-67" Id=94 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1f5e9985
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1f5e9985
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-66" Id=93 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3ab5371f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3ab5371f
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-65" Id=92 WAITING  THREADS - [Count: 398] on java.util.ArrayList@86d4eac
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@86d4eac
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-64" Id=91 WAITING  THREADS - [Count: 398] on java.util.ArrayList@77a0e48b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@77a0e48b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-63" Id=90 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1cd9c94b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1cd9c94b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-62" Id=89 WAITING  THREADS - [Count: 398] on java.util.ArrayList@f471800
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@f471800
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-61" Id=88 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6dbd2f6a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6dbd2f6a
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-60" Id=87 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1d490aea
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1d490aea
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-59" Id=86 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4f881b99
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4f881b99
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-58" Id=85 WAITING  THREADS - [Count: 398] on java.util.ArrayList@78389d70
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@78389d70
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-57" Id=84 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7cfa3b62
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7cfa3b62
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-56" Id=83 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2931604d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2931604d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-55" Id=82 WAITING  THREADS - [Count: 398] on java.util.ArrayList@26eae221
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@26eae221
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-54" Id=81 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1a053891
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1a053891
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-53" Id=80 WAITING  THREADS - [Count: 398] on java.util.ArrayList@37092198
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@37092198
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-52" Id=79 WAITING  THREADS - [Count: 398] on java.util.ArrayList@15980c3c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@15980c3c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-51" Id=78 WAITING  THREADS - [Count: 398] on java.util.ArrayList@64921f44
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@64921f44
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-50" Id=77 WAITING  THREADS - [Count: 398] on java.util.ArrayList@57e072f7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@57e072f7
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-49" Id=76 WAITING  THREADS - [Count: 398] on java.util.ArrayList@291b9c72
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@291b9c72
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-48" Id=75 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7c379c81
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7c379c81
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-47" Id=74 WAITING  THREADS - [Count: 398] on java.util.ArrayList@82bc47c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@82bc47c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-46" Id=73 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5c087844
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5c087844
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-45" Id=72 WAITING  THREADS - [Count: 398] on java.util.ArrayList@298587bb
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@298587bb
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-44" Id=71 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6996c59e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6996c59e
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-43" Id=70 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3fc8f4f4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3fc8f4f4
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-42" Id=69 WAITING  THREADS - [Count: 398] on java.util.ArrayList@201d7111
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@201d7111
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-41" Id=68 WAITING  THREADS - [Count: 398] on java.util.ArrayList@25a082f6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@25a082f6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-40" Id=67 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7a4519e9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7a4519e9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-39" Id=66 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2d23d01
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2d23d01
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-38" Id=65 WAITING  THREADS - [Count: 398] on java.util.ArrayList@490c51b3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@490c51b3
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-37" Id=64 WAITING  THREADS - [Count: 398] on java.util.ArrayList@681add56
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@681add56
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-36" Id=63 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3a421bed
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3a421bed
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-35" Id=62 WAITING  THREADS - [Count: 398] on java.util.ArrayList@29eb1391
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@29eb1391
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-34" Id=61 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2414ed6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2414ed6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-33" Id=60 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3c8fc3a5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3c8fc3a5
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-32" Id=59 WAITING  THREADS - [Count: 398] on java.util.ArrayList@16383aaa
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@16383aaa
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-31" Id=58 WAITING  THREADS - [Count: 398] on java.util.ArrayList@67bec467
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@67bec467
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-30" Id=57 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6f0101b8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6f0101b8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-29" Id=56 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2d516516
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2d516516
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-28" Id=55 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7aebe77c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7aebe77c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-27" Id=54 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6be789ba
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6be789ba
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-26" Id=53 WAITING  THREADS - [Count: 398] on java.util.ArrayList@c0c59bf
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@c0c59bf
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-25" Id=52 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2ad3f4fd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2ad3f4fd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-24" Id=51 WAITING  THREADS - [Count: 398] on java.util.ArrayList@f2636dc
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@f2636dc
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-23" Id=50 WAITING  THREADS - [Count: 398] on java.util.ArrayList@585bd4db
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@585bd4db
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-22" Id=49 WAITING  THREADS - [Count: 398] on java.util.ArrayList@36f4bfce
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@36f4bfce
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-21" Id=48 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3b5d1f1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3b5d1f1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-20" Id=47 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3d9b978d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3d9b978d
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-19" Id=46 WAITING  THREADS - [Count: 398] on java.util.ArrayList@3be071e9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@3be071e9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-18" Id=45 WAITING  THREADS - [Count: 398] on java.util.ArrayList@2879b394
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@2879b394
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-17" Id=44 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5eec533
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5eec533
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-16" Id=43 WAITING  THREADS - [Count: 398] on java.util.ArrayList@64a81dfc
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@64a81dfc
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-15" Id=42 WAITING  THREADS - [Count: 398] on java.util.ArrayList@5cff47b9
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@5cff47b9
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-14" Id=41 WAITING  THREADS - [Count: 398] on java.util.ArrayList@397fbaa1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@397fbaa1
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-13" Id=40 WAITING  THREADS - [Count: 398] on java.util.ArrayList@4acb27e0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@4acb27e0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-12" Id=39 WAITING  THREADS - [Count: 398] on java.util.ArrayList@6ea894b8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@6ea894b8
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-11" Id=38 WAITING  THREADS - [Count: 398] on java.util.ArrayList@48ccd45b
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@48ccd45b
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-10" Id=37 WAITING  THREADS - [Count: 398] on java.util.ArrayList@ca2d551
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@ca2d551
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-9" Id=36 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1f450702
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1f450702
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-8" Id=35 WAITING  THREADS - [Count: 398] on java.util.ArrayList@35625d06
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@35625d06
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-7" Id=34 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1ba239fd
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1ba239fd
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-6" Id=33 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1b07f85
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1b07f85
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-5" Id=32 WAITING  THREADS - [Count: 398] on java.util.ArrayList@36fa05a6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@36fa05a6
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-4" Id=31 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1157f412
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1157f412
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-3" Id=30 WAITING  THREADS - [Count: 398] on java.util.ArrayList@1bb05a14
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@1bb05a14
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-2" Id=29 WAITING  THREADS - [Count: 398] on java.util.ArrayList@19fe42b0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@19fe42b0
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"AsyncAppender-Dispatcher-Thread-1" Id=28 WAITING  THREADS - [Count: 398] on java.util.ArrayList@7f4fa31c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.ArrayList@7f4fa31c
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"FileWatchdog" Id=27 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=26 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=25 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=24 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=23 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=22 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=21 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=20 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=19 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=18 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=17 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=16 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=15 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=14 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"FileWatchdog" Id=13 TIMED_WAITING  THREADS - [Count: 398]
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+
+
+"RMI TCP Accept-0" Id=12 RUNNABLE  THREADS - [Count: 398] (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:52)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+"Signal Dispatcher" Id=5 RUNNABLE  THREADS - [Count: 398]
+
+
+"Finalizer" Id=3 WAITING  THREADS - [Count: 398] on java.lang.ref.ReferenceQueue$Lock@51963f83
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@51963f83
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+
+"Reference Handler" Id=2 WAITING  THREADS - [Count: 398] on java.lang.ref.Reference$Lock@486faf5f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@486faf5f
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+

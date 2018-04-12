@@ -1,0 +1,35 @@
+
+************************ Statistics from 2018-04-12 06:15:00.012 until 2018-04-12 06:30:00.016 ************************
+Operations executed: 562
+Different operation types executed: 8
+Operations average time (in millis): 1
+The 10 worst operations are:
+# Millis:      30 # On: 2018-04-12 06:16:10.834 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 06:25:40.842 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 06:28:50.845 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 06:22:30.839 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      25 # On: 2018-04-12 06:25:30.842 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      21 # On: 2018-04-12 06:15:30.834 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      17 # On: 2018-04-12 06:27:30.844 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      16 # On: 2018-04-12 06:16:00.834 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      16 # On: 2018-04-12 06:15:00.833 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      16 # On: 2018-04-12 06:20:20.837 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+ *** All operations statistics ***
+# Avg (ms):      11 # Max (ms):      30 # Count:    90 # Last called: 2018-04-12 06:29:50.846 # put [Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.846 # getAll [Integration_ADAPTER_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:    16 # Last called: 2018-04-12 06:30:00.015 # getAll [License_LICENSE]
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.908 # removeListener
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 06:28:08.182 # getAll [Topology_TQL_TRACKER]
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 06:27:15.901 # getAll [Topology_TQL]
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:56.534 # getAll [Auth_INVALID_LOGIN]
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.858 # addListener [POST_COMMIT:ALL_NODES:CM_CLASS]

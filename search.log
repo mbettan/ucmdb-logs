@@ -1,0 +1,4 @@
+2018-04-11 20:43:09,919  INFO   [Starter for "topology-search" (during Writer server startup). (customer 1, id name: Default Client)] - Start SearchManager for customer[1, id name: Default Client]
+2018-04-11 20:43:09,919  INFO   [Starter for "topology-search" (during Writer server startup). (customer 1, id name: Default Client)] - Search is not enabled for customer[1, id name: Default Client]
+2018-04-12 06:44:27,757  INFO   [Starter for "topology-search" (during Writer server startup). (customer 1, id name: Default Client)] - Start SearchManager for customer[1, id name: Default Client]
+2018-04-12 06:44:27,757  INFO   [Starter for "topology-search" (during Writer server startup). (customer 1, id name: Default Client)] - Search is not enabled for customer[1, id name: Default Client]

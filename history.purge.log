@@ -1,0 +1,344 @@
+2018-04-12 01:00:09,835  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - -- Started purging. Last date to save = Fri Jan 12 01:00:09 UTC 2018. Old removed data will be saved for extra 1 month(s).
+2018-04-12 01:00:09,835  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Going to copy old removed data before Fri Jan 12 01:00:09 UTC 2018, and drop old history tables
+2018-04-12 01:00:09,835  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [root]
+2018-04-12 01:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [root]
+2018-04-12 01:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : root completed in: 7 ms.
+2018-04-12 01:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [data]
+2018-04-12 01:00:09,844  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [data]
+2018-04-12 01:00:09,844  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : data completed in: 2 ms.
+2018-04-12 01:00:09,844  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [link]
+2018-04-12 01:00:09,846  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [link]
+2018-04-12 01:00:09,846  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : link completed in: 2 ms.
+2018-04-12 01:00:09,846  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [maplink]
+2018-04-12 01:00:09,848  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [maplink]
+2018-04-12 01:00:09,848  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : maplink completed in: 1 ms.
+2018-04-12 01:00:09,848  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [mapgrouplink]
+2018-04-12 01:00:09,850  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [mapgrouplink]
+2018-04-12 01:00:09,850  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : mapgrouplink completed in: 1 ms.
+2018-04-12 01:00:09,850  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [maplinkmeta]
+2018-04-12 01:00:09,852  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [maplinkmeta]
+2018-04-12 01:00:09,852  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : maplinkmeta completed in: 1 ms.
+2018-04-12 01:00:09,852  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [contains_cmdb]
+2018-04-12 01:00:09,853  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [contains_cmdb]
+2018-04-12 01:00:09,854  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : contains_cmdb completed in: 1 ms.
+2018-04-12 01:00:09,854  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [rulename]
+2018-04-12 01:00:09,855  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [rulename]
+2018-04-12 01:00:09,855  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : rulename completed in: 1 ms.
+2018-04-12 01:00:09,855  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [configuration_links]
+2018-04-12 01:00:09,857  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [configuration_links]
+2018-04-12 01:00:09,857  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : configuration_links completed in: 1 ms.
+2018-04-12 01:00:09,857  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_configuration_link]
+2018-04-12 01:00:09,859  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_configuration_link]
+2018-04-12 01:00:09,859  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_configuration_link completed in: 1 ms.
+2018-04-12 01:00:09,859  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_conf_aggregation]
+2018-04-12 01:00:09,861  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_conf_aggregation]
+2018-04-12 01:00:09,861  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_conf_aggregation completed in: 1 ms.
+2018-04-12 01:00:09,861  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_conf_composition]
+2018-04-12 01:00:09,862  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_conf_composition]
+2018-04-12 01:00:09,863  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_conf_composition completed in: 1 ms.
+2018-04-12 01:00:09,863  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_info_composition]
+2018-04-12 01:00:09,864  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_info_composition]
+2018-04-12 01:00:09,864  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_info_composition completed in: 1 ms.
+2018-04-12 01:00:09,864  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [function]
+2018-04-12 01:00:09,866  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [function]
+2018-04-12 01:00:09,866  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : function completed in: 1 ms.
+2018-04-12 01:00:09,866  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [inheritance_f]
+2018-04-12 01:00:09,868  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [inheritance_f]
+2018-04-12 01:00:09,868  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : inheritance_f completed in: 1 ms.
+2018-04-12 01:00:09,868  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [join_f]
+2018-04-12 01:00:09,870  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [join_f]
+2018-04-12 01:00:09,870  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : join_f completed in: 1 ms.
+2018-04-12 01:00:09,870  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [compound_f]
+2018-04-12 01:00:09,871  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [compound_f]
+2018-04-12 01:00:09,871  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : compound_f completed in: 1 ms.
+2018-04-12 01:00:09,871  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [management]
+2018-04-12 01:00:09,873  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [management]
+2018-04-12 01:00:09,873  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : management completed in: 1 ms.
+2018-04-12 01:00:09,873  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [triggers]
+2018-04-12 01:00:09,875  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [triggers]
+2018-04-12 01:00:09,875  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : triggers completed in: 1 ms.
+2018-04-12 01:00:09,875  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [viewprofile]
+2018-04-12 01:00:09,877  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [viewprofile]
+2018-04-12 01:00:09,877  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : viewprofile completed in: 1 ms.
+2018-04-12 01:00:09,877  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [cmdb_configuration_links]
+2018-04-12 01:00:09,879  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [cmdb_configuration_links]
+2018-04-12 01:00:09,879  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : cmdb_configuration_links completed in: 1 ms.
+2018-04-12 01:00:09,879  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [managed_relationship]
+2018-04-12 01:00:09,880  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [managed_relationship]
+2018-04-12 01:00:09,880  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : managed_relationship completed in: 1 ms.
+2018-04-12 01:00:09,880  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [monitor_links]
+2018-04-12 01:00:09,882  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [monitor_links]
+2018-04-12 01:00:09,882  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : monitor_links completed in: 2 ms.
+2018-04-12 01:00:09,882  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [system_monitor_links]
+2018-04-12 01:00:09,884  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [system_monitor_links]
+2018-04-12 01:00:09,884  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : system_monitor_links completed in: 1 ms.
+2018-04-12 01:00:09,884  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eum_links]
+2018-04-12 01:00:09,886  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eum_links]
+2018-04-12 01:00:09,886  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eum_links completed in: 1 ms.
+2018-04-12 01:00:09,886  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [monitored_by]
+2018-04-12 01:00:09,888  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [monitored_by]
+2018-04-12 01:00:09,888  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : monitored_by completed in: 1 ms.
+2018-04-12 01:00:09,888  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [system_links]
+2018-04-12 01:00:09,890  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [system_links]
+2018-04-12 01:00:09,890  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : system_links completed in: 2 ms.
+2018-04-12 01:00:09,891  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [business_links]
+2018-04-12 01:00:09,892  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [business_links]
+2018-04-12 01:00:09,892  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : business_links completed in: 1 ms.
+2018-04-12 01:00:09,892  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [composition]
+2018-04-12 01:00:09,894  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [composition]
+2018-04-12 01:00:09,894  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : composition completed in: 1 ms.
+2018-04-12 01:00:09,894  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [containment]
+2018-04-12 01:00:09,896  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [containment]
+2018-04-12 01:00:09,896  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : containment completed in: 1 ms.
+2018-04-12 01:00:09,896  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [includes]
+2018-04-12 01:00:09,898  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [includes]
+2018-04-12 01:00:09,898  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : includes completed in: 1 ms.
+2018-04-12 01:00:09,898  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [calculated_link]
+2018-04-12 01:00:09,900  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [calculated_link]
+2018-04-12 01:00:09,900  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : calculated_link completed in: 1 ms.
+2018-04-12 01:00:09,900  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [impact_link]
+2018-04-12 01:00:09,902  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [impact_link]
+2018-04-12 01:00:09,902  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : impact_link completed in: 1 ms.
+2018-04-12 01:00:09,902  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [object]
+2018-04-12 01:00:09,903  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [object]
+2018-04-12 01:00:09,904  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : object completed in: 1 ms.
+2018-04-12 01:00:09,904  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [mapnode]
+2018-04-12 01:00:09,905  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [mapnode]
+2018-04-12 01:00:09,905  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : mapnode completed in: 1 ms.
+2018-04-12 01:00:09,905  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [mapgroup]
+2018-04-12 01:00:09,907  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [mapgroup]
+2018-04-12 01:00:09,907  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : mapgroup completed in: 1 ms.
+2018-04-12 01:00:09,907  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [snapshot]
+2018-04-12 01:00:09,909  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [snapshot]
+2018-04-12 01:00:09,909  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : snapshot completed in: 2 ms.
+2018-04-12 01:00:09,909  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [ReportResult]
+2018-04-12 01:00:09,911  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [ReportResult]
+2018-04-12 01:00:09,911  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : ReportResult completed in: 2 ms.
+2018-04-12 01:00:09,911  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [AbstractReportDefinition]
+2018-04-12 01:00:09,913  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [AbstractReportDefinition]
+2018-04-12 01:00:09,913  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : AbstractReportDefinition completed in: 1 ms.
+2018-04-12 01:00:09,913  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [configuration]
+2018-04-12 01:00:09,915  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [configuration]
+2018-04-12 01:00:09,915  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : configuration completed in: 2 ms.
+2018-04-12 01:00:09,915  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_configuration]
+2018-04-12 01:00:09,917  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_configuration]
+2018-04-12 01:00:09,917  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_configuration completed in: 1 ms.
+2018-04-12 01:00:09,917  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_config]
+2018-04-12 01:00:09,919  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_config]
+2018-04-12 01:00:09,919  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_config completed in: 1 ms.
+2018-04-12 01:00:09,919  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [adapter_config]
+2018-04-12 01:00:09,921  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [adapter_config]
+2018-04-12 01:00:09,921  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : adapter_config completed in: 1 ms.
+2018-04-12 01:00:09,921  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [destination_config]
+2018-04-12 01:00:09,923  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [destination_config]
+2018-04-12 01:00:09,923  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : destination_config completed in: 1 ms.
+2018-04-12 01:00:09,923  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [supported_class_config]
+2018-04-12 01:00:09,925  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [supported_class_config]
+2018-04-12 01:00:09,925  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : supported_class_config completed in: 1 ms.
+2018-04-12 01:00:09,925  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [fcmdb_info]
+2018-04-12 01:00:09,927  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [fcmdb_info]
+2018-04-12 01:00:09,927  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : fcmdb_info completed in: 1 ms.
+2018-04-12 01:00:09,927  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [last_concrete_synch_info]
+2018-04-12 01:00:09,929  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [last_concrete_synch_info]
+2018-04-12 01:00:09,929  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : last_concrete_synch_info completed in: 1 ms.
+2018-04-12 01:00:09,929  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [last_synch_unit_info]
+2018-04-12 01:00:09,931  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [last_synch_unit_info]
+2018-04-12 01:00:09,931  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : last_synch_unit_info completed in: 1 ms.
+2018-04-12 01:00:09,931  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [synch_unit_info]
+2018-04-12 01:00:09,933  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [synch_unit_info]
+2018-04-12 01:00:09,933  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : synch_unit_info completed in: 1 ms.
+2018-04-12 01:00:09,933  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [circularproperties]
+2018-04-12 01:00:09,935  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [circularproperties]
+2018-04-12 01:00:09,935  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : circularproperties completed in: 1 ms.
+2018-04-12 01:00:09,935  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [column]
+2018-04-12 01:00:09,937  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [column]
+2018-04-12 01:00:09,937  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : column completed in: 1 ms.
+2018-04-12 01:00:09,937  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [condition]
+2018-04-12 01:00:09,938  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [condition]
+2018-04-12 01:00:09,938  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : condition completed in: 1 ms.
+2018-04-12 01:00:09,938  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [disconnectedproperties]
+2018-04-12 01:00:09,940  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [disconnectedproperties]
+2018-04-12 01:00:09,940  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : disconnectedproperties completed in: 1 ms.
+2018-04-12 01:00:09,940  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eventmessage]
+2018-04-12 01:00:09,942  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eventmessage]
+2018-04-12 01:00:09,942  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eventmessage completed in: 1 ms.
+2018-04-12 01:00:09,942  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [hierarchicalproperties]
+2018-04-12 01:00:09,944  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [hierarchicalproperties]
+2018-04-12 01:00:09,944  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : hierarchicalproperties completed in: 1 ms.
+2018-04-12 01:00:09,944  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [key]
+2018-04-12 01:00:09,946  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [key]
+2018-04-12 01:00:09,946  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : key completed in: 1 ms.
+2018-04-12 01:00:09,946  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [layerproperties]
+2018-04-12 01:00:09,948  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [layerproperties]
+2018-04-12 01:00:09,948  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : layerproperties completed in: 1 ms.
+2018-04-12 01:00:09,948  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [maplayer]
+2018-04-12 01:00:09,949  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [maplayer]
+2018-04-12 01:00:09,949  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : maplayer completed in: 1 ms.
+2018-04-12 01:00:09,949  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [model]
+2018-04-12 01:00:09,951  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [model]
+2018-04-12 01:00:09,951  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : model completed in: 1 ms.
+2018-04-12 01:00:09,951  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [messagecatalog]
+2018-04-12 01:00:09,953  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [messagecatalog]
+2018-04-12 01:00:09,953  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : messagecatalog completed in: 1 ms.
+2018-04-12 01:00:09,953  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [param]
+2018-04-12 01:00:09,955  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [param]
+2018-04-12 01:00:09,955  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : param completed in: 1 ms.
+2018-04-12 01:00:09,955  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [paramdefinition]
+2018-04-12 01:00:09,956  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [paramdefinition]
+2018-04-12 01:00:09,956  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : paramdefinition completed in: 1 ms.
+2018-04-12 01:00:09,956  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [profile]
+2018-04-12 01:00:09,958  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [profile]
+2018-04-12 01:00:09,958  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : profile completed in: 1 ms.
+2018-04-12 01:00:09,958  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [subchart]
+2018-04-12 01:00:09,960  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [subchart]
+2018-04-12 01:00:09,960  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : subchart completed in: 1 ms.
+2018-04-12 01:00:09,960  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [tailor]
+2018-04-12 01:00:09,961  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [tailor]
+2018-04-12 01:00:09,962  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : tailor completed in: 1 ms.
+2018-04-12 01:00:09,962  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [folder]
+2018-04-12 01:00:09,963  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [folder]
+2018-04-12 01:00:09,963  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : folder completed in: 1 ms.
+2018-04-12 01:00:09,963  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [watch]
+2018-04-12 01:00:09,965  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [watch]
+2018-04-12 01:00:09,965  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : watch completed in: 1 ms.
+2018-04-12 01:00:09,965  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [ModelNotificationDefinitionImpl]
+2018-04-12 01:00:09,967  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [ModelNotificationDefinitionImpl]
+2018-04-12 01:00:09,967  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : ModelNotificationDefinitionImpl completed in: 1 ms.
+2018-04-12 01:00:09,967  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [extended_property_link]
+2018-04-12 01:00:09,968  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [extended_property_link]
+2018-04-12 01:00:09,968  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : extended_property_link completed in: 1 ms.
+2018-04-12 01:00:09,968  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [cmdbclass]
+2018-04-12 01:00:09,970  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [cmdbclass]
+2018-04-12 01:00:09,970  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : cmdbclass completed in: 1 ms.
+2018-04-12 01:00:09,970  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverydoc]
+2018-04-12 01:00:09,972  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverydoc]
+2018-04-12 01:00:09,972  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverydoc completed in: 1 ms.
+2018-04-12 01:00:09,972  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoveryjob]
+2018-04-12 01:00:09,973  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoveryjob]
+2018-04-12 01:00:09,973  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoveryjob completed in: 1 ms.
+2018-04-12 01:00:09,973  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverymodule]
+2018-04-12 01:00:09,975  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverymodule]
+2018-04-12 01:00:09,975  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverymodule completed in: 1 ms.
+2018-04-12 01:00:09,975  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverypattern]
+2018-04-12 01:00:09,977  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverypattern]
+2018-04-12 01:00:09,977  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverypattern completed in: 1 ms.
+2018-04-12 01:00:09,977  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoveryprobegateway]
+2018-04-12 01:00:09,979  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoveryprobegateway]
+2018-04-12 01:00:09,979  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoveryprobegateway completed in: 1 ms.
+2018-04-12 01:00:09,979  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoveryprobemanager]
+2018-04-12 01:00:09,980  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoveryprobemanager]
+2018-04-12 01:00:09,980  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoveryprobemanager completed in: 1 ms.
+2018-04-12 01:00:09,980  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoveryresource]
+2018-04-12 01:00:09,982  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoveryresource]
+2018-04-12 01:00:09,982  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoveryresource completed in: 1 ms.
+2018-04-12 01:00:09,982  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverysairesource]
+2018-04-12 01:00:09,984  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverysairesource]
+2018-04-12 01:00:09,984  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverysairesource completed in: 1 ms.
+2018-04-12 01:00:09,984  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverytql]
+2018-04-12 01:00:09,985  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverytql]
+2018-04-12 01:00:09,986  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverytql completed in: 1 ms.
+2018-04-12 01:00:09,986  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [discoverywizard]
+2018-04-12 01:00:09,987  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [discoverywizard]
+2018-04-12 01:00:09,987  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : discoverywizard completed in: 1 ms.
+2018-04-12 01:00:09,987  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [domain]
+2018-04-12 01:00:09,989  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [domain]
+2018-04-12 01:00:09,989  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : domain completed in: 1 ms.
+2018-04-12 01:00:09,989  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [protocol]
+2018-04-12 01:00:09,991  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [protocol]
+2018-04-12 01:00:09,991  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : protocol completed in: 1 ms.
+2018-04-12 01:00:09,991  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [udaprotocol]
+2018-04-12 01:00:09,992  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [udaprotocol]
+2018-04-12 01:00:09,992  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : udaprotocol completed in: 1 ms.
+2018-04-12 01:00:09,992  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [action]
+2018-04-12 01:00:09,994  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [action]
+2018-04-12 01:00:09,994  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : action completed in: 1 ms.
+2018-04-12 01:00:09,994  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [actiondefinition]
+2018-04-12 01:00:09,996  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [actiondefinition]
+2018-04-12 01:00:09,996  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : actiondefinition completed in: 1 ms.
+2018-04-12 01:00:09,996  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [actioninvocationdata]
+2018-04-12 01:00:09,997  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [actioninvocationdata]
+2018-04-12 01:00:09,998  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : actioninvocationdata completed in: 1 ms.
+2018-04-12 01:00:09,998  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [actionkey]
+2018-04-12 01:00:09,999  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [actionkey]
+2018-04-12 01:00:09,999  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : actionkey completed in: 1 ms.
+2018-04-12 01:00:09,999  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [actionrepository]
+2018-04-12 01:00:10,001  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [actionrepository]
+2018-04-12 01:00:10,001  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : actionrepository completed in: 1 ms.
+2018-04-12 01:00:10,001  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [chart]
+2018-04-12 01:00:10,003  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [chart]
+2018-04-12 01:00:10,003  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : chart completed in: 1 ms.
+2018-04-12 01:00:10,003  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eventbase]
+2018-04-12 01:00:10,004  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eventbase]
+2018-04-12 01:00:10,005  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eventbase completed in: 1 ms.
+2018-04-12 01:00:10,005  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [activeevent]
+2018-04-12 01:00:10,006  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [activeevent]
+2018-04-12 01:00:10,006  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : activeevent completed in: 1 ms.
+2018-04-12 01:00:10,006  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [rawevent]
+2018-04-12 01:00:10,008  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [rawevent]
+2018-04-12 01:00:10,008  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : rawevent completed in: 1 ms.
+2018-04-12 01:00:10,008  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [rules]
+2018-04-12 01:00:10,009  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [rules]
+2018-04-12 01:00:10,010  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : rules completed in: 1 ms.
+2018-04-12 01:00:10,010  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [timerules]
+2018-04-12 01:00:10,011  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [timerules]
+2018-04-12 01:00:10,011  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : timerules completed in: 1 ms.
+2018-04-12 01:00:10,011  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eventrules]
+2018-04-12 01:00:10,013  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eventrules]
+2018-04-12 01:00:10,013  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eventrules completed in: 1 ms.
+2018-04-12 01:00:10,013  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eventtimerules]
+2018-04-12 01:00:10,015  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eventtimerules]
+2018-04-12 01:00:10,015  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eventtimerules completed in: 1 ms.
+2018-04-12 01:00:10,015  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [input]
+2018-04-12 01:00:10,016  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [input]
+2018-04-12 01:00:10,016  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : input completed in: 1 ms.
+2018-04-12 01:00:10,016  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [instruction]
+2018-04-12 01:00:10,018  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [instruction]
+2018-04-12 01:00:10,018  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : instruction completed in: 1 ms.
+2018-04-12 01:00:10,018  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [actioninstruction]
+2018-04-12 01:00:10,020  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [actioninstruction]
+2018-04-12 01:00:10,020  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : actioninstruction completed in: 1 ms.
+2018-04-12 01:00:10,020  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [panelinstruction]
+2018-04-12 01:00:10,021  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [panelinstruction]
+2018-04-12 01:00:10,021  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : panelinstruction completed in: 1 ms.
+2018-04-12 01:00:10,021  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [internalid]
+2018-04-12 01:00:10,023  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [internalid]
+2018-04-12 01:00:10,023  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : internalid completed in: 1 ms.
+2018-04-12 01:00:10,023  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [job]
+2018-04-12 01:00:10,024  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [job]
+2018-04-12 01:00:10,024  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : job completed in: 1 ms.
+2018-04-12 01:00:10,024  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [output]
+2018-04-12 01:00:10,026  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [output]
+2018-04-12 01:00:10,026  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : output completed in: 1 ms.
+2018-04-12 01:00:10,026  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [providerrepository]
+2018-04-12 01:00:10,028  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [providerrepository]
+2018-04-12 01:00:10,028  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : providerrepository completed in: 1 ms.
+2018-04-12 01:00:10,028  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [schedulerjob]
+2018-04-12 01:00:10,029  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [schedulerjob]
+2018-04-12 01:00:10,029  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : schedulerjob completed in: 1 ms.
+2018-04-12 01:00:10,029  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [scheduler_job]
+2018-04-12 01:00:10,031  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [scheduler_job]
+2018-04-12 01:00:10,031  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : scheduler_job completed in: 1 ms.
+2018-04-12 01:00:10,031  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [userfilter]
+2018-04-12 01:00:10,033  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [userfilter]
+2018-04-12 01:00:10,033  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : userfilter completed in: 1 ms.
+2018-04-12 01:00:10,033  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [managed_object]
+2018-04-12 01:00:10,034  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [managed_object]
+2018-04-12 01:00:10,034  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : managed_object completed in: 1 ms.
+2018-04-12 01:00:10,034  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [configuration_item]
+2018-04-12 01:00:10,036  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [configuration_item]
+2018-04-12 01:00:10,036  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : configuration_item completed in: 1 ms.
+2018-04-12 01:00:10,036  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [monitor]
+2018-04-12 01:00:10,038  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [monitor]
+2018-04-12 01:00:10,038  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : monitor completed in: 1 ms.
+2018-04-12 01:00:10,038  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [system_monitor]
+2018-04-12 01:00:10,039  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [system_monitor]
+2018-04-12 01:00:10,039  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : system_monitor completed in: 1 ms.
+2018-04-12 01:00:10,039  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [eum_monitor]
+2018-04-12 01:00:10,041  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [eum_monitor]
+2018-04-12 01:00:10,041  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : eum_monitor completed in: 1 ms.
+2018-04-12 01:00:10,041  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history of CI type [infrastructure_element]
+2018-04-12 01:00:10,043  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purging history tables [[]] of CI type [infrastructure_element]
+2018-04-12 01:00:10,043  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Purge process for : infrastructure_element completed in: 1 ms.
+2018-04-12 01:00:10,043  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Going to purge old data that was removed before Tue Dec 12 01:00:09 UTC 2017
+2018-04-12 01:00:10,145  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  Going to purge model revision table from date Fri Jan 12 01:00:09 UTC 2018
+2018-04-12 01:00:10,152  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - -- Finished purging

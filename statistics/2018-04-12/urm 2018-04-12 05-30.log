@@ -1,0 +1,33 @@
+
+************************ Statistics from 2018-04-12 05:15:00.003 until 2018-04-12 05:30:00.015 ************************
+Operations executed: 382
+Different operation types executed: 6
+Operations average time (in millis): 20
+The 10 worst operations are:
+# Millis:    7410 # On: 2018-04-12 05:17:40.777 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      43 # On: 2018-04-12 05:21:20.781 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      33 # On: 2018-04-12 05:15:20.775 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      30 # On: 2018-04-12 05:24:40.784 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      29 # On: 2018-04-12 05:16:10.776 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      29 # On: 2018-04-12 05:28:10.788 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      29 # On: 2018-04-12 05:21:10.780 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 05:20:10.779 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 05:24:00.785 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      28 # On: 2018-04-12 05:18:00.778 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+ *** All operations statistics ***
+# Avg (ms):      86 # Max (ms):    7410 # Count:    90 # Last called: 2018-04-12 05:29:50.788 # put [Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:    16 # Last called: 2018-04-12 05:29:59.955 # getAll [License_LICENSE]
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 05:28:08.170 # getAll [Topology_TQL_TRACKER]
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 05:29:50.788 # getAll [Integration_ADAPTER_CONFIG]
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 05:29:56.534 # getAll [Auth_INVALID_LOGIN]
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 05:27:15.901 # getAll [Topology_TQL]

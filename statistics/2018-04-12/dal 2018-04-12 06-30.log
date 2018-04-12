@@ -1,0 +1,44 @@
+
+************************ Statistics from 2018-04-12 06:15:00.014 until 2018-04-12 06:30:00.009 ************************
+Operations executed: 2484
+Different operation types executed: 11
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:       5 # On: 2018-04-12 06:27:29.004 # select * from DB_CONTEXT
+null
+# Millis:       2 # On: 2018-04-12 06:25:30.844 # SELECT SEQUENCE_VALUE FROM SEQUENCES WHERE SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=? for update
+null
+# Millis:       2 # On: 2018-04-12 06:18:10.845 # INSERT INTO URM_RESOURCES_HISTORY (REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, IS_DELETE_EVENT) 
+ ( SELECT REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, ?  
+ FROM URM_RESOURCES 
+ WHERE 1=1  AND REAL_ID in (?) AND TYPE NOT IN ('History_HIST_FAILURE','UI_USER_PREFERENCES','Settings_PROPERTY_SETTING','UI_PROTOCOL_DECORATION','UI_DASHBOARD_SETTINGS'))
+null
+# Millis:       2 # On: 2018-04-12 06:19:10.839 # SELECT SEQUENCE_VALUE FROM SEQUENCES WHERE SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=? for update
+null
+# Millis:       1 # On: 2018-04-12 06:15:01.548 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 06:15:03.263 # SELECT * FROM HA_WRITER for update
+null
+# Millis:       1 # On: 2018-04-12 06:15:00.836 # update SEQUENCES set SEQUENCE_VALUE=? where SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=?
+null
+# Millis:       1 # On: 2018-04-12 06:15:03.264 # UPDATE HA_WRITER SET SERVER_ID=?,TIMESTAMP=?,SUGGESTED_SERVER_ID=?,SUGGESTION_TIMESTAMP=?
+null
+# Millis:       1 # On: 2018-04-12 06:15:01.554 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 06:15:07.571 # select * from CUSTOMER_REGISTRATION order by ID
+null
+ *** All operations statistics ***
+# Avg (ms):       0 # Max (ms):       5 # Count:   598 # Last called: 2018-04-12 06:29:59.702 # select * from DB_CONTEXT
+# Avg (ms):       0 # Max (ms):       1 # Count:    30 # Last called: 2018-04-12 06:29:57.534 # SELECT VERSION FROM CONTENT_PACKS ORDER BY VERSION ASC
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 06:29:48.270 # UPDATE HA_WRITER SET SERVER_ID=?,TIMESTAMP=?,SUGGESTED_SERVER_ID=?,SUGGESTION_TIMESTAMP=?
+# Avg (ms):       0 # Max (ms):       2 # Count:    90 # Last called: 2018-04-12 06:29:50.853 # INSERT INTO URM_RESOURCES_HISTORY (REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, IS_DELETE_EVENT) 
+ ( SELECT REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, ?  
+ FROM URM_RESOURCES 
+ WHERE 1=1  AND REAL_ID in (?) AND TYPE NOT IN ('History_HIST_FAILURE','UI_USER_PREFERENCES','Settings_PROPERTY_SETTING','UI_PROTOCOL_DECORATION','UI_DASHBOARD_SETTINGS'))
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 06:29:48.269 # SELECT * FROM HA_WRITER for update
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.849 # update SEQUENCES set SEQUENCE_VALUE=? where SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=?
+# Avg (ms):       0 # Max (ms):       1 # Count:   658 # Last called: 2018-04-12 06:29:59.700 # select * from CUSTOMER_REGISTRATION order by ID
+# Avg (ms):       0 # Max (ms):       1 # Count:   658 # Last called: 2018-04-12 06:29:59.704 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 06:29:48.270 # select (cast(sys_extract_utc(systimestamp) as date) - to_date('19700101', 'YYYYMMDD')) * 86400 seconds FROM dual
+# Avg (ms):       0 # Max (ms):       2 # Count:    90 # Last called: 2018-04-12 06:29:50.849 # SELECT SEQUENCE_VALUE FROM SEQUENCES WHERE SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=? for update
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.855 # SELECT MODEL_ID, REVISION FROM HA_REVISIONS WHERE MODEL_ID IN ('URM_customerId_1') for update

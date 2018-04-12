@@ -1,0 +1,640 @@
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - Customer ID [1]
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 20:57:15,901  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 20:57:15,904  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 20:57:15,904  INFO   [RequestProcessorAsyncPool-493] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 20:57:15,904  INFO   [RequestProcessorAsyncPool-493] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 20:57:15,904  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 20:57:15,904  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 20:57:15,905  INFO   [RequestProcessorAsyncPool-493] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 20:57:15,905  INFO   [RequestProcessorAsyncPool-493] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 20:57:15,905  INFO   [RequestProcessorAsyncPool-493] (?:?) - ************************************************************
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - Customer ID [1]
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 21:12:15,899  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:12:15,900  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:12:15,900  INFO   [RequestProcessorAsyncPool-585] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 21:12:15,900  INFO   [RequestProcessorAsyncPool-585] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 21:12:15,900  INFO   [RequestProcessorAsyncPool-585] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - Customer ID [1]
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 21:27:15,900  INFO   [RequestProcessorAsyncPool-673] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - Customer ID [1]
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 21:42:15,901  INFO   [RequestProcessorAsyncPool-759] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - Customer ID [1]
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 21:57:15,901  INFO   [RequestProcessorAsyncPool-829] (?:?) - ************************************************************
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - Customer ID [1]
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 22:12:15,900  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:12:15,901  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:12:15,901  INFO   [RequestProcessorAsyncPool-915] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 22:12:15,901  INFO   [RequestProcessorAsyncPool-915] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 22:12:15,901  INFO   [RequestProcessorAsyncPool-915] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - Customer ID [1]
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 22:27:15,900  INFO   [RequestProcessorAsyncPool-995] (?:?) - ************************************************************
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - Customer ID [1]
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 22:42:15,900  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:42:15,901  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:42:15,901  INFO   [RequestProcessorAsyncPool-1085] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 22:42:15,901  INFO   [RequestProcessorAsyncPool-1085] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 22:42:15,901  INFO   [RequestProcessorAsyncPool-1085] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - Customer ID [1]
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 22:57:15,901  INFO   [RequestProcessorAsyncPool-1163] (?:?) - ************************************************************
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - Customer ID [1]
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 23:12:15,900  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:12:15,901  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:12:15,901  INFO   [RequestProcessorAsyncPool-1274] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 23:12:15,901  INFO   [RequestProcessorAsyncPool-1274] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 23:12:15,901  INFO   [RequestProcessorAsyncPool-1274] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - Customer ID [1]
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 23:27:15,901  INFO   [RequestProcessorAsyncPool-1358] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - Customer ID [1]
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 23:42:15,900  INFO   [RequestProcessorAsyncPool-1412] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - Customer ID [1]
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-11 23:57:15,901  INFO   [RequestProcessorAsyncPool-1529] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - Customer ID [1]
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 00:12:15,901  INFO   [RequestProcessorAsyncPool-1592] (?:?) - ************************************************************
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - Customer ID [1]
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 00:27:15,900  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:27:15,901  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:27:15,901  INFO   [RequestProcessorAsyncPool-1681] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 00:27:15,901  INFO   [RequestProcessorAsyncPool-1681] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 00:27:15,901  INFO   [RequestProcessorAsyncPool-1681] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - Customer ID [1]
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 00:42:15,901  INFO   [RequestProcessorAsyncPool-1781] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - Customer ID [1]
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 00:57:15,900  INFO   [RequestProcessorAsyncPool-1845] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - Customer ID [1]
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 01:12:15,900  INFO   [RequestProcessorAsyncPool-1950] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - Customer ID [1]
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 01:27:15,901  INFO   [RequestProcessorAsyncPool-2020] (?:?) - ************************************************************
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - Customer ID [1]
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 01:42:15,900  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:42:15,901  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:42:15,901  INFO   [RequestProcessorAsyncPool-2060] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 01:42:15,901  INFO   [RequestProcessorAsyncPool-2060] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 01:42:15,901  INFO   [RequestProcessorAsyncPool-2060] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - Customer ID [1]
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 01:57:15,901  INFO   [RequestProcessorAsyncPool-2145] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - Customer ID [1]
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 02:12:15,901  INFO   [RequestProcessorAsyncPool-2161] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - Customer ID [1]
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 02:27:15,901  INFO   [RequestProcessorAsyncPool-2253] (?:?) - ************************************************************
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - Customer ID [1]
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:42:15,900  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 02:42:15,901  INFO   [RequestProcessorAsyncPool-2295] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - Customer ID [1]
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 02:57:15,901  INFO   [RequestProcessorAsyncPool-2373] (?:?) - ************************************************************
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - Customer ID [1]
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 03:12:15,900  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:12:15,901  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:12:15,901  INFO   [RequestProcessorAsyncPool-2428] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 03:12:15,901  INFO   [RequestProcessorAsyncPool-2428] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 03:12:15,901  INFO   [RequestProcessorAsyncPool-2428] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - Customer ID [1]
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 03:27:15,900  INFO   [RequestProcessorAsyncPool-2484] (?:?) - ************************************************************
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - Customer ID [1]
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:42:15,900  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 03:42:15,901  INFO   [RequestProcessorAsyncPool-2542] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - Customer ID [1]
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 03:57:15,901  INFO   [RequestProcessorAsyncPool-2601] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - Customer ID [1]
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 04:12:15,901  INFO   [RequestProcessorAsyncPool-2644] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - Customer ID [1]
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 04:27:15,900  INFO   [RequestProcessorAsyncPool-2711] (?:?) - ************************************************************
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - Customer ID [1]
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 04:42:15,901  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:42:15,902  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:42:15,902  INFO   [RequestProcessorAsyncPool-2768] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 04:42:15,902  INFO   [RequestProcessorAsyncPool-2768] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 04:42:15,902  INFO   [RequestProcessorAsyncPool-2768] (?:?) - ************************************************************
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - Customer ID [1]
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 04:57:15,900  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 04:57:15,901  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 04:57:15,901  INFO   [RequestProcessorAsyncPool-2820] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 04:57:15,901  INFO   [RequestProcessorAsyncPool-2820] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 04:57:15,901  INFO   [RequestProcessorAsyncPool-2820] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - Customer ID [1]
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 05:12:15,900  INFO   [RequestProcessorAsyncPool-2878] (?:?) - ************************************************************
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - Customer ID [1]
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:27:15,900  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 05:27:15,901  INFO   [RequestProcessorAsyncPool-2924] (?:?) - ************************************************************
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - Customer ID [1]
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 05:42:15,900  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:42:15,901  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:42:15,901  INFO   [RequestProcessorAsyncPool-2991] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 05:42:15,901  INFO   [RequestProcessorAsyncPool-2991] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 05:42:15,901  INFO   [RequestProcessorAsyncPool-2991] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - Customer ID [1]
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 05:57:15,901  INFO   [RequestProcessorAsyncPool-3073] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - Customer ID [1]
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 06:12:15,901  INFO   [RequestProcessorAsyncPool-3113] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - Customer ID [1]
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 06:27:15,901  INFO   [RequestProcessorAsyncPool-3241] (?:?) - ************************************************************
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) -           Quota And Count Monitor Info was refreshed
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - Customer ID [1]
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - quota [quota.name.customer.model.objects], current count set to : 0 quota is : 20000000
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - quota [quota.name.customer.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - server quota [quota.name.server.model.objects], current count set to : 0 quota is : 40000000
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - server quota [quota.name.server.tql.active], current count set to : 0 quota is : 3400
+2018-04-12 06:57:36,935  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************
+2018-04-12 06:57:36,940  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************
+2018-04-12 06:57:36,940  INFO   [RequestProcessorAsyncPool-489] (?:?) -           Statistics Monitor Info was refreshed
+2018-04-12 06:57:36,941  INFO   [RequestProcessorAsyncPool-489] (?:?) - Customer ID [1] Statistics are : Timeout didn't occur. The Last times:Run AdHoc TQL:0	
+2018-04-12 06:57:36,941  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************
+2018-04-12 06:57:36,942  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************
+2018-04-12 06:57:36,942  INFO   [RequestProcessorAsyncPool-489] (?:?) -           Pattern Result Monitor Info was refreshed
+2018-04-12 06:57:36,942  INFO   [RequestProcessorAsyncPool-489] (?:?) - Customer ID [1] : Pettern Total Result is 0
+2018-04-12 06:57:36,942  INFO   [RequestProcessorAsyncPool-489] (?:?) - ************************************************************

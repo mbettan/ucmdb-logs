@@ -1,0 +1,111 @@
+2018-04-12 02:00:00,005  INFO   [RequestProcessorAsyncPool-2154] - ---------- AgingPeriodicTask started.
+2018-04-12 02:00:00,028  ERROR  [RequestProcessorAsyncPool-2154] - Error while trying to run the Aging Task
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [-2147483648] undefined error code]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [-2147483648] undefined error code]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Can't execute prepared statement [select TruncateTableInAutonomousTrx('CDM_TMP_STR') from DUAL], due to exception: java.sql.SQLSyntaxErrorException: ORA-00904: "TRUNCATETABLEINAUTONOMOUSTRX": invalid identifier
+ : operation ModelQueryGetAgingCIsCount : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4cfd3cb87051f7738b9895ee200c9e58' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.model.operation.query.impl.ModelQueryGetAgingCIsCount@5e7efff7' Customer ID='1, id name: Default Client' 
+Context='CMDB Context: Customer id = '1, id name: Default Client' , User ID = '911' , Caller Application = 'Periodic task keyAgingTask''}
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.createCmdbResponseOnCmdbError(RequestProcessor.java:499)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:223)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.handleRequest(RequestProcessor.java:127)
+	at com.mercury.topaz.cmdb.server.manage.Framework.handleRequest(Framework.java:790)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeCMDBOperation(AbstractCmdbApi.java:38)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeOperation(AbstractCmdbApi.java:57)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeOperation(InternalApi.java:32)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeCMDBOperation(InternalApi.java:24)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:56)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:34)
+	at com.mercury.topaz.cmdb.server.model.aging.periodic.AgingOperation.getCIsCountToDelete(AgingOperation.java:236)
+	at com.mercury.topaz.cmdb.server.model.aging.periodic.AgingOperation.doExecute(AgingOperation.java:90)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkOperation.commonExecute(AbstractFrameworkOperation.java:17)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.access$300(RequestProcessor.java:52)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor$4.run(RequestProcessor.java:577)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [-2147483648] undefined error code]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Can't execute prepared statement [select TruncateTableInAutonomousTrx('CDM_TMP_STR') from DUAL], due to exception: java.sql.SQLSyntaxErrorException: ORA-00904: "TRUNCATETABLEINAUTONOMOUSTRX": invalid identifier
+ : operation ModelQueryGetAgingCIsCount
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:160)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	... 24 more
+Caused by: appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [-2147483648] undefined error code]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Can't execute prepared statement [select TruncateTableInAutonomousTrx('CDM_TMP_STR') from DUAL], due to exception: java.sql.SQLSyntaxErrorException: ORA-00904: "TRUNCATETABLEINAUTONOMOUSTRX": invalid identifier
+ : operation ModelQueryGetAgingCIsCount
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:114)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	... 27 more
+Caused by: com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException: [ErrorCode [-2147483648] undefined error code]
+Can't execute prepared statement [select TruncateTableInAutonomousTrx('CDM_TMP_STR') from DUAL], due to exception: java.sql.SQLSyntaxErrorException: ORA-00904: "TRUNCATETABLEINAUTONOMOUSTRX": invalid identifier
+
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalPreparedStatementImpl.executeQuery(CmdbDalPreparedStatementImpl.java:367)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTableSimpleCommand.handleOracle(CmdbDalTruncateTableSimpleCommand.java:120)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTableSimpleCommand.truncateTable(CmdbDalTruncateTableSimpleCommand.java:73)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTableSimpleCommand.perform(CmdbDalTruncateTableSimpleCommand.java:46)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTableSimpleCommand.perform(CmdbDalTruncateTableSimpleCommand.java:22)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTempTableComplexCommand.truncateTable(CmdbDalTruncateTempTableComplexCommand.java:53)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTempTableComplexCommand.perform(CmdbDalTruncateTempTableComplexCommand.java:39)
+	at com.mercury.topaz.cmdb.server.dal.command.impl.CmdbDalTruncateTempTableComplexCommand.perform(CmdbDalTruncateTempTableComplexCommand.java:28)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.dal.command.datamodel.impl.temptables.CmdbTempTablesSupportDalCommand.truncateTempTable(CmdbTempTablesSupportDalCommand.java:88)
+	at com.mercury.topaz.cmdb.server.dal.command.datamodel.impl.temptables.CmdbTempTablesSupportDalCommand.truncateStringTempTable(CmdbTempTablesSupportDalCommand.java:48)
+	at com.mercury.topaz.cmdb.server.dal.command.dataquery.impl.CmdbDalConditionComplexCommand.truncateNonIdTempTables(CmdbDalConditionComplexCommand.java:483)
+	at com.mercury.topaz.cmdb.server.dal.command.dataquery.impl.CmdbDalConditionComplexCommand.prepare(CmdbDalConditionComplexCommand.java:185)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:47)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:120)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:105)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.DefaultRetriableExecutorImpl.doExecute(DefaultRetriableExecutorImpl.java:37)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.AbstractRetriableExecutor.execute(AbstractRetriableExecutor.java:37)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:61)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:53)
+	at com.mercury.topaz.cmdb.server.dal.dao.impl.CmdbDalJdbcDataModelDAO.executeQuery(CmdbDalJdbcDataModelDAO.java:99)
+	at com.mercury.topaz.cmdb.server.model.aging.AgingUtils.getCIsCountForAging(AgingUtils.java:58)
+	at com.mercury.topaz.cmdb.shared.model.operation.query.impl.ModelQueryGetAgingCIsCount.doExecute(ModelQueryGetAgingCIsCount.java:24)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkOperation.commonExecute(AbstractFrameworkOperation.java:17)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	... 31 more
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "TRUNCATETABLEINAUTONOMOUSTRX": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:225)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:53)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:774)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:925)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1104)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:4798)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:4845)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1501)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:83)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalPreparedStatementImpl$FlowControlQueryExecuter.execute(CmdbDalPreparedStatementImpl.java:607)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalPreparedStatementImpl$FlowControlQueryExecuter.execute(CmdbDalPreparedStatementImpl.java:599)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalPreparedStatementImpl.executeQuery(CmdbDalPreparedStatementImpl.java:358)
+	... 62 more
+2018-04-12 02:00:00,028  INFO   [RequestProcessorAsyncPool-2154] - ---------- AgingPeriodicTask finished.

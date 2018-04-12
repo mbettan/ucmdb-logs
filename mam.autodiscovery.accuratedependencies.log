@@ -1,0 +1,2 @@
+2018-04-11 20:43:08,630  INFO   [Starter for "autodiscovery" (during Writer server startup). (customer 1, id name: Default Client)] - Accurate dependency config class com.hp.ucmdb.discovery.common.accuratedependencies.config.AccurateDependenciesApplicationServerContext
+2018-04-12 06:44:27,631  INFO   [Starter for "autodiscovery" (during Writer server startup). (customer 1, id name: Default Client)] - Accurate dependency config class com.hp.ucmdb.discovery.common.accuratedependencies.config.AccurateDependenciesApplicationServerContext

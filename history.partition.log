@@ -1,0 +1,117 @@
+2018-04-11 20:43:08,679  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=managed_object
+2018-04-11 20:43:08,697  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=configuration_item
+2018-04-11 20:43:08,712  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=monitor
+2018-04-11 20:43:08,721  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=system_monitor
+2018-04-11 20:43:08,733  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=eum_monitor
+2018-04-11 20:43:08,745  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=infrastructure_element
+2018-04-11 20:43:08,768  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Deleting all partitions for deleted class: class=managed_relationship
+2018-04-11 20:43:08,773  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [monitor_links] is: null
+2018-04-11 20:43:08,774  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Read new value from settings: baseline day and hour:1/10/70 12:00 AM
+2018-04-11 20:43:08,893  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=monitor_links, baseline date=4/10/18 12:00 AM, table name=HDM_180410MONITOR_LINKS_1
+2018-04-11 20:43:08,894  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [system_monitor_links] is: null
+2018-04-11 20:43:08,989  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=system_monitor_links, baseline date=4/10/18 12:00 AM, table name=HDM_180410SYSTEM__1895643694
+2018-04-11 20:43:08,990  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [eum_links] is: null
+2018-04-11 20:43:09,084  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=eum_links, baseline date=4/10/18 12:00 AM, table name=HDM_180410EUM_LINKS_1
+2018-04-11 20:43:09,085  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [monitored_by] is: null
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=monitored_by, baseline date=4/10/18 12:00 AM, table name=HDM_180410MONITORED_BY_1
+2018-04-11 20:43:09,172  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [system_links] is: null
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=system_links, baseline date=4/10/18 12:00 AM, table name=HDM_180410SYSTEM_LINKS_1
+2018-04-11 20:43:09,258  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [business_links] is: null
+2018-04-11 20:43:09,344  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=business_links, baseline date=4/10/18 12:00 AM, table name=HDM_180410BUSINESS_LINKS_1
+2018-04-11 20:43:09,345  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [composition] is: null
+2018-04-11 20:43:09,428  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=composition, baseline date=4/10/18 12:00 AM, table name=HDM_180410COMPOSITION_1
+2018-04-11 20:43:09,429  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [containment] is: null
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=containment, baseline date=4/10/18 12:00 AM, table name=HDM_180410CONTAINMENT_1
+2018-04-11 20:43:09,528  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [includes] is: null
+2018-04-11 20:43:09,611  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=includes, baseline date=4/10/18 12:00 AM, table name=HDM_180410INCLUDES_1
+2018-04-11 20:43:09,628  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [snapshot] is: null
+2018-04-11 20:43:09,718  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=snapshot, baseline date=4/10/18 12:00 AM, table name=HDM_180410SNAPSHOT_1
+2018-04-11 20:43:09,731  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Current partition date for class [ReportResult] is: null
+2018-04-11 20:43:09,818  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Add to URM adding new partition: class=ReportResult, baseline date=4/10/18 12:00 AM, table name=HDM_180410REPORTRESULT_1
+2018-04-12 00:00:09,834  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - ----------------- Starting baseline procedure !!!
+2018-04-12 00:00:09,834  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Baseline will be executed for the classes (size 11): [class: name [monitor_links] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAA], class: name [system_monitor_links] super class [monitor_links] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAAAA], class: name [eum_links] super class [monitor_links] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAAAB], class: name [monitored_by] super class [monitor_links] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAAAC], class: name [system_links] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAB], class: name [business_links] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAC], class: name [composition] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAD], class: name [containment] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAE], class: name [includes] super class [managed_relationship] type [LINK] isFactory [true] isUserUpdated [false] path [AAAAAAAEAF], class: name [snapshot] super class [object] type [OBJECT] isFactory [true] isUserUpdated [false] path [AAAAABAB], class: name [ReportResult] super class [object] type [OBJECT] isFactory [true] isUserUpdated [false] path [AAAAABAC]]
+2018-04-12 00:00:09,834  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [monitor_links], 1 from 11
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [monitor_links] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitor_links]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitor_links]: No need to run baseline.
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitor_links]: Baseline took ms: 1
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [monitor_links], 1 from 11
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [system_monitor_links], 2 from 11
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [system_monitor_links] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_monitor_links]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_monitor_links]: No need to run baseline.
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_monitor_links]: Baseline took ms: 1
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [system_monitor_links], 2 from 11
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [eum_links], 3 from 11
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [eum_links] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [eum_links]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [eum_links]: No need to run baseline.
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [eum_links]: Baseline took ms: 0
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [eum_links], 3 from 11
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [monitored_by], 4 from 11
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [monitored_by] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitored_by]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitored_by]: No need to run baseline.
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [monitored_by]: Baseline took ms: 0
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [monitored_by], 4 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [system_links], 5 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [system_links] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_links]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_links]: No need to run baseline.
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [system_links]: Baseline took ms: 0
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [system_links], 5 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [business_links], 6 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [business_links] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [business_links]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [business_links]: No need to run baseline.
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [business_links]: Baseline took ms: 0
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [business_links], 6 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [composition], 7 from 11
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [composition] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [composition]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [composition]: No need to run baseline.
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [composition]: Baseline took ms: 1
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [composition], 7 from 11
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [containment], 8 from 11
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [containment] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [containment]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [containment]: No need to run baseline.
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [containment]: Baseline took ms: 0
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [containment], 8 from 11
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [includes], 9 from 11
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [includes] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [includes]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [includes]: No need to run baseline.
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [includes]: Baseline took ms: 0
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [includes], 9 from 11
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [snapshot], 10 from 11
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [snapshot] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [snapshot]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [snapshot]: No need to run baseline.
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [snapshot]: Baseline took ms: 1
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [snapshot], 10 from 11
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Starting baseline procedure for class [ReportResult], 11 from 11
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Current partition date for class [ReportResult] is: 4/10/18 12:00 AM
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [ReportResult]: NextBaseLine date=5/10/18 12:00 AM, baseline start date=4/12/18 12:00 AM
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [ReportResult]: No need to run baseline.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - [ReportResult]: Baseline took ms: 1
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - --------- Finished baseline procedure for class [ReportResult], 11 from 11
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - ----------------- Finished baseline procedure in 0 sec!!!
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - ----------------- Summary of baseline procedure:
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Passed classes:{
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [containment]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [monitored_by]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [composition]: 1 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [system_monitor_links]: 1 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [eum_links]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [system_links]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [includes]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [monitor_links]: 1 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [ReportResult]: 1 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [snapshot]: 1 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] -  [business_links]: 0 ms.
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - }
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - Failed classes:{
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - }
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - ----------------- END Summary.
+2018-04-12 06:44:27,634  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Read new value from settings: baseline day and hour:1/10/70 12:00 AM

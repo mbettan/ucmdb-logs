@@ -1,0 +1,32 @@
+
+************************ Statistics from 2018-04-12 01:30:00.005 until 2018-04-12 01:45:00.005 ************************
+Operations executed: 1945
+Different operation types executed: 5
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:       6 # On: 2018-04-12 01:42:58.676 # select * from DB_CONTEXT
+null
+# Millis:       2 # On: 2018-04-12 01:33:29.117 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 01:30:04.205 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 01:30:04.207 # select * from DB_CONTEXT
+null
+# Millis:       1 # On: 2018-04-12 01:30:07.218 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 01:30:07.222 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 01:30:04.203 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 01:30:07.212 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 01:30:07.216 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 01:30:07.214 # select * from DB_CONTEXT
+null
+ *** All operations statistics ***
+# Avg (ms):       0 # Max (ms):       6 # Count:   598 # Last called: 2018-04-12 01:44:59.225 # select * from DB_CONTEXT
+# Avg (ms):       0 # Max (ms):       1 # Count:   658 # Last called: 2018-04-12 01:44:59.227 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+# Avg (ms):       0 # Max (ms):       2 # Count:   658 # Last called: 2018-04-12 01:44:59.223 # select * from CUSTOMER_REGISTRATION order by ID
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 01:43:08.127 # SELECT COUNT(*) FROM FCMDB_CONF_AGGREGATION_1
+# Avg (ms):       0 # Max (ms):       1 # Count:    30 # Last called: 2018-04-12 01:44:44.971 # SELECT VERSION FROM CONTENT_PACKS ORDER BY VERSION ASC

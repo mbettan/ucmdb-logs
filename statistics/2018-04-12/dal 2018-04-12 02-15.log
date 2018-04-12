@@ -1,0 +1,32 @@
+
+************************ Statistics from 2018-04-12 02:00:00.006 until 2018-04-12 02:15:00.004 ************************
+Operations executed: 1945
+Different operation types executed: 5
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:       8 # On: 2018-04-12 02:00:00.011 # SELECT COUNT( R.CMDB_ID) FROM CDM_ROOT_1 R , CLASS_MODEL_ENCODING C  WHERE  R.A_ROOT_ENABLEAGEING = 1 AND  R.A_ROOT_ACTUALDELETETIME < ? AND  R.A_ROOT_CLASS = C.CLASS_NAME AND  C.CUSTOMER_ID = ?  AND  C.PATH LIKE 'AAAAABAF%' 
+null
+# Millis:       6 # On: 2018-04-12 02:00:33.633 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       2 # On: 2018-04-12 02:14:43.635 # select * from DB_CONTEXT
+null
+# Millis:       2 # On: 2018-04-12 02:14:55.686 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 02:00:03.353 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 02:00:00.344 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 02:00:03.363 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       1 # On: 2018-04-12 02:00:12.394 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 02:00:06.373 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       1 # On: 2018-04-12 02:00:00.346 # select * from CUSTOMER_REGISTRATION order by ID
+null
+ *** All operations statistics ***
+# Avg (ms):       8 # Max (ms):       8 # Count:     1 # Last called: 2018-04-12 02:00:00.011 # SELECT COUNT( R.CMDB_ID) FROM CDM_ROOT_1 R , CLASS_MODEL_ENCODING C  WHERE  R.A_ROOT_ENABLEAGEING = 1 AND  R.A_ROOT_ACTUALDELETETIME < ? AND  R.A_ROOT_CLASS = C.CLASS_NAME AND  C.CUSTOMER_ID = ?  AND  C.PATH LIKE 'AAAAABAF%' 
+# Avg (ms):       0 # Max (ms):       1 # Count:    30 # Last called: 2018-04-12 02:14:44.980 # SELECT VERSION FROM CONTENT_PACKS ORDER BY VERSION ASC
+# Avg (ms):       0 # Max (ms):       6 # Count:   658 # Last called: 2018-04-12 02:14:58.713 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+# Avg (ms):       0 # Max (ms):       2 # Count:   658 # Last called: 2018-04-12 02:14:58.709 # select * from CUSTOMER_REGISTRATION order by ID
+# Avg (ms):       0 # Max (ms):       2 # Count:   598 # Last called: 2018-04-12 02:14:58.711 # select * from DB_CONTEXT

@@ -1,0 +1,66 @@
+
+************************ Statistics from 2018-04-12 06:15:00.006 until 2018-04-12 06:30:00.002 ************************
+Operations executed: 5120
+Different operation types executed: 39
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:      58 # On: 2018-04-12 06:26:40.855 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetAdHocMap # CallerApp: Controller # CustomerID: 1
+RequestID: 4ae63fc26a2c3b18a2fc0bc4de76b835 # Name: Tql Query: Get Ad Hoc Map (By Pattern ID). Pattern [IntegrationAndAdapterTriggerCiPattern]
+# Millis:      55 # On: 2018-04-12 06:26:40.856 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandProcessAdHocCalculate # CallerApp: Controller # CustomerID: 1
+RequestID: 4236931cdb45f58da9608e9be26f65ba # Name: Tql Command: Process AdHoc Calculate # Verbose: Tql Command: Process AdHoc Calculate
+# Millis:      54 # On: 2018-04-12 06:26:40.856 # Class: com.mercury.topaz.cmdb.server.model.operation.command.topology.impl.ModelCommandCalculatePattern # CallerApp: Controller # CustomerID: 1
+RequestID: 4f339f08d71d348e926fae3a3f85a8ce # Name: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern # Verbose: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern
+# Millis:      50 # On: 2018-04-12 06:29:50.858 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetAdHocMap # CallerApp: Controller # CustomerID: 1
+RequestID: 4d473f17d8eb91d29a3fba2ff2ba95e2 # Name: Tql Query: Get Ad Hoc Map (By Pattern ID). Pattern [IntegrationAndAdapterTriggerCiPattern]
+# Millis:      48 # On: 2018-04-12 06:20:20.853 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetAdHocMap # CallerApp: Controller # CustomerID: 1
+RequestID: 4c4c55f6a6869c259ea2a22386e837e8 # Name: Tql Query: Get Ad Hoc Map (By Pattern ID). Pattern [IntegrationAndAdapterTriggerCiPattern]
+# Millis:      47 # On: 2018-04-12 06:20:20.853 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandProcessAdHocCalculate # CallerApp: Controller # CustomerID: 1
+RequestID: 45b521ea280293d69bad96813d7c8179 # Name: Tql Command: Process AdHoc Calculate # Verbose: Tql Command: Process AdHoc Calculate
+# Millis:      47 # On: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandProcessAdHocCalculate # CallerApp: Controller # CustomerID: 1
+RequestID: 489a9c9dd45525598cd3ecf9e6662857 # Name: Tql Command: Process AdHoc Calculate # Verbose: Tql Command: Process AdHoc Calculate
+# Millis:      46 # On: 2018-04-12 06:20:20.853 # Class: com.mercury.topaz.cmdb.server.model.operation.command.topology.impl.ModelCommandCalculatePattern # CallerApp: Controller # CustomerID: 1
+RequestID: 46da3cf69f17bbad80b06c6287ec4e70 # Name: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern # Verbose: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern
+# Millis:      46 # On: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.model.operation.command.topology.impl.ModelCommandCalculatePattern # CallerApp: Controller # CustomerID: 1
+RequestID: 4c4714bb276847088b30160928365c09 # Name: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern # Verbose: Model Calculate Pattern:IntegrationAndAdapterTriggerCiPattern
+# Millis:      45 # On: 2018-04-12 06:23:30.855 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetAdHocMap # CallerApp: Controller # CustomerID: 1
+RequestID: 40cc4daa12c7d66da5313fa5332b790d # Name: Tql Query: Get Ad Hoc Map (By Pattern ID). Pattern [IntegrationAndAdapterTriggerCiPattern]
+ *** All operations statistics ***
+# Avg (ms):       8 # Max (ms):      32 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.ModelQueryPerformFirstSystemTqlCalc # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       7 # Max (ms):      31 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.model.operation.query.impl.ModelQueryGetObjectsByConditionNoObjects # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.server.monitors.operation.command.impl.MonitorsCommandCollectInfo # CallerApp: CMDB # CustomerID: -2147483648
+# Avg (ms):       1 # Max (ms):       6 # Count:   598 # Last called: 2018-04-12 06:29:59.699 # Class: com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers # CallerApp: UIServer # CustomerID: -2147483648
+# Avg (ms):       1 # Max (ms):       6 # Count:   598 # Last called: 2018-04-12 06:29:59.701 # Class: com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomerConfigs # CallerApp: UIServer # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:58.510 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandResultRepositoryRemoveTemporary # CallerApp: Periodic task result_repository_timer # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 06:29:53.876 # Class: com.hp.ucmdb.discovery.framework.probe.operations.AutoDiscoveryOperationUpdateResourceLastUpdateTime # CallerApp: Periodic task update discovery resources last update time # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   598 # Last called: 2018-04-12 06:29:59.703 # Class: com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomerStates # CallerApp: UIServer # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.870 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlCacheUpdateRemoveSystemTql # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):      55 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandProcessAdHocCalculate # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):      58 # Count:   180 # Last called: 2018-04-12 06:29:50.858 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetAdHocMap # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):      54 # Count:   270 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.model.operation.command.topology.impl.ModelCommandCalculatePattern # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.031 # Class: com.mercury.topaz.cmdb.shared.manage.quota.operation.update.impl.QuotaUpdateCollectCounts # CallerApp: CMDB # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlCacheQueryIsResultUpdated # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       3 # Count:   180 # Last called: 2018-04-12 06:29:50.868 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlEventsProcessorUpdateFail # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.858 # Class: com.hp.ucmdb.authorization.permissions.operation.query.tenants.impl.AuthorizationGetTenantsForGeneralOnResourceOrCIPermittedAction # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:23:08.183 # Class: com.mercury.topaz.cmdb.server.tql.operation.command.impl.TqlCommandResultRepositoryPassivation # CallerApp: Periodic task result_repository_passivate_timer # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:     3 # Last called: 2018-04-12 06:28:08.649 # Class: com.hp.ucmdb.discovery.framework.probe.operations.AutoDiscoveryOperationClearDownloadResourcesCache # CallerApp: Periodic task Resources Cache Clean # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:58.569 # Class: com.mercury.topaz.cmdb.server.base.dispatcher.command.TimerTickCommand # CallerApp: Periodic task Correlation Actions task # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.shared.manage.quota.operation.query.impl.QuotaQueryGetQuotaAndCountInfo # CallerApp: CMDB # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.846 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.memory.ModelMemoryTopologyQueryGetObjectsByType # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.031 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.separation.ModelTopologyQueryGetCountByTypes # CallerApp: CMDB # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:23:08.183 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetPatterns # CallerApp: Periodic task result_repository_passivate_timer # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.845 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.separation.ModelTopologyQueryGetClassesResidenceInfo # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.845 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.separation.ModelTopologyQueryGetObjectsByType # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   270 # Last called: 2018-04-12 06:29:50.858 # Class: com.hp.ucmdb.transformation.facade.ModelTransformationServerFacade$GetTransformationModel # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     4 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetLoadedCustomerIDs # CallerApp: CMDB # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlCacheQueryGetGraphSysTQLs # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlCacheUpdateAddSystemTql # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.858 # Class: com.mercury.topaz.cmdb.server.tql.newscheduler.internal.operations.TqlSchedulerOperationGetPatternCompiler # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 06:28:08.182 # Class: com.hp.ucmdb.widgettracker.operations.CmdbWidgetClearNotificationsCache # CallerApp: Periodic task Cmdb-Widget-Tracker: Clean Notifications Cache Task # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     4 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.server.monitors.operation.update.impl.MonitorsUpdateInfoOperation # CallerApp: CMDB # CustomerID: -2147483648
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:23:08.290 # Class: com.mercury.topaz.cmdb.server.base.util.cache.operation.CacheUpdateShrink # CallerApp: Periodic task IMPACT_STATE # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     2 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.shared.tql.operation.query.impl.TqlQueryGetPatterns # CallerApp: CMDB # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.031 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.separation.ModelTopologyQueryGetObjectsCount # CallerApp: CMDB # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 06:29:50.858 # Class: com.hp.ucmdb.manage.config.ConfigUpdateCacheSetClassesCapabilities # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       1 # Count:   180 # Last called: 2018-04-12 06:29:50.859 # Class: com.mercury.topaz.cmdb.server.systemtql.operation.SystemTqlUpdateAddConditionToEventProcessor # CallerApp: Controller # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.031 # Class: com.mercury.topaz.cmdb.server.model.operation.query.topology.memory.ModelMemoryTopologyQueryGetObjectsCount # CallerApp: CMDB # CustomerID: 1
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:27:15.901 # Class: com.mercury.topaz.cmdb.server.tql.operation.query.impl.TqlQueryGetFailedTqls # CallerApp: CMDB # CustomerID: 1

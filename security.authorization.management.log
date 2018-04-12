@@ -1,0 +1,7 @@
+2018-04-11 20:42:58,125  WARN   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Default Tenant <{0}> doesn't exist, creating it
+2018-04-11 20:42:58,143  WARN   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Default Tenant <{0}> was created
+2018-04-11 20:42:58,143  INFO   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Added default tenant [{0}]
+2018-04-11 20:42:58,305  INFO   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Created security domain {OWNED_BY#$$#FULL#$$#System Default Tenant}
+2018-04-11 20:42:58,325  INFO   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Created security domain {USED_BY#$$#VIEW#$$#System Default Tenant}
+2018-04-11 20:42:58,325  INFO   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Created security domain {USED_BY#$$#VIEW}
+2018-04-11 20:42:58,325  INFO   [Starter for "authorization" (during Writer server startup). (customer 1, id name: Default Client)] - Customer 1, user {}: Created security domain {OWNED_BY#$$#FULL}

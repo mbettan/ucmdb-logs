@@ -1,0 +1,38 @@
+2018-04-11 20:40:46,951  INFO   [main] - No new configuration file was found!
+2018-04-11 20:40:47,004  INFO   [main] - Master key was loaded with success into memory!
+2018-04-11 20:40:52,881  WARN   [main] - !!! Failed to decrypt password, make sure it is encrypted !!!
+2018-04-11 20:40:54,001  INFO   [main] - No new configuration file was found!
+2018-04-11 20:40:54,018  INFO   [main] - No new file was found for: ./conf/persistence/encryption.bin.new
+2018-04-11 20:40:54,018  INFO   [main] - No new file was found for: ./conf/persistence/cmdbSuperIntegrationCredentials.bin.new
+2018-04-11 20:40:54,397  INFO   [main] - No new configuration file was found!
+2018-04-11 20:40:54,433  INFO   [main] - Master key was loaded with success into memory!
+2018-04-11 20:42:57,804  INFO   [main] - lwssoCookieExpirationPeriod=30
+2018-04-11 20:42:57,804  INFO   [main] - trustedDomains=
+2018-04-11 20:42:57,804  INFO   [main] - trustedNetBiosNames=
+2018-04-11 20:42:57,804  INFO   [main] - trustedIPs=
+2018-04-11 20:42:57,804  INFO   [main] - trustedFQDNs=
+2018-04-11 20:42:57,804  INFO   [main] - isLWSSOReverseProxyEnabled=false
+2018-04-11 20:42:57,804  INFO   [main] - validationPointHandlerEnabled=false
+2018-04-11 20:42:57,804  INFO   [main] - authenticationPointServer=
+2018-04-11 20:42:57,804  INFO   [main] - isUILwssoEnabled=true
+2018-04-11 20:42:57,804  INFO   [main] - domain=helion1.hpintelco.org
+2018-04-11 20:42:57,804  INFO   [main] - isLWSSOReverseProxyEnabled=
+2018-04-12 06:41:57,324  INFO   [main] - No new configuration file was found!
+2018-04-12 06:41:57,395  INFO   [main] - Master key was loaded with success into memory!
+2018-04-12 06:41:59,455  WARN   [main] - !!! Failed to decrypt password, make sure it is encrypted !!!
+2018-04-12 06:42:01,390  INFO   [main] - No new configuration file was found!
+2018-04-12 06:42:01,421  INFO   [main] - No new file was found for: ./conf/persistence/encryption.bin.new
+2018-04-12 06:42:01,421  INFO   [main] - No new file was found for: ./conf/persistence/cmdbSuperIntegrationCredentials.bin.new
+2018-04-12 06:42:01,966  INFO   [main] - No new configuration file was found!
+2018-04-12 06:42:02,016  INFO   [main] - Master key was loaded with success into memory!
+2018-04-12 06:42:54,367  INFO   [main] - lwssoCookieExpirationPeriod=30
+2018-04-12 06:42:54,368  INFO   [main] - trustedDomains=
+2018-04-12 06:42:54,368  INFO   [main] - trustedNetBiosNames=
+2018-04-12 06:42:54,368  INFO   [main] - trustedIPs=
+2018-04-12 06:42:54,368  INFO   [main] - trustedFQDNs=
+2018-04-12 06:42:54,368  INFO   [main] - isLWSSOReverseProxyEnabled=false
+2018-04-12 06:42:54,368  INFO   [main] - validationPointHandlerEnabled=false
+2018-04-12 06:42:54,368  INFO   [main] - authenticationPointServer=
+2018-04-12 06:42:54,368  INFO   [main] - isUILwssoEnabled=true
+2018-04-12 06:42:54,368  INFO   [main] - domain=helion1.hpintelco.org
+2018-04-12 06:42:54,368  INFO   [main] - isLWSSOReverseProxyEnabled=

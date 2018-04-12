@@ -1,0 +1,4 @@
+2018-04-11 20:42:59,298  INFO   [Starter for "framework" (during Writer server startup). (customer 1, id name: Default Client)] - Autopass framework was successfully initialized
+2018-04-11 20:42:59,490  INFO   [Starter for "framework" (during Writer server startup). (customer 1, id name: Default Client)] - Licensing was successfully initialized
+2018-04-12 06:44:26,624  INFO   [main] - Autopass framework was successfully initialized
+2018-04-12 06:44:26,724  INFO   [main] - Licensing was successfully initialized

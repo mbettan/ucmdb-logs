@@ -1,0 +1,22 @@
+2018-04-11 20:43:08,129  INFO   [Starter for "msg_sync" (during Writer server startup). (customer 1, id name: Default Client)] - Starting Async History Service
+2018-04-11 20:43:08,130  INFO   [Starter for "msg_sync" (during Writer server startup). (customer 1, id name: Default Client)] - Async History Service started
+2018-04-11 20:43:08,577  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Initial deployment: history tables alignment will be done
+2018-04-11 20:43:09,831  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Adding task for executing purging
+2018-04-11 20:43:09,832  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Adding task for executing baseline
+2018-04-12 00:00:09,837  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 1 [ms]
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 1 [ms]
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,838  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,839  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 1 [ms]
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,840  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 0 [ms]
+2018-04-12 00:00:09,841  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 1 [ms]
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineForClassOperation took 1 [ms]
+2018-04-12 00:00:09,842  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistBaselineOperation took 8 [ms]
+2018-04-12 01:00:10,152  INFO   [UCMDB - scheduler for customer 1, id name: Default Client] - HistPurgeHistoryTables took 320 [ms]
+2018-04-12 06:44:27,165  INFO   [Starter for "msg_sync" (during Writer server startup). (customer 1, id name: Default Client)] - Starting Async History Service
+2018-04-12 06:44:27,169  INFO   [Starter for "msg_sync" (during Writer server startup). (customer 1, id name: Default Client)] - Async History Service started
+2018-04-12 06:44:27,629  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Adding task for executing purging
+2018-04-12 06:44:27,630  INFO   [Starter for "histDB" (during Writer server startup). (customer 1, id name: Default Client)] - Adding task for executing baseline

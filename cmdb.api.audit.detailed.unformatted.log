@@ -1,0 +1,496 @@
+2018-04-12 05:41:58,316  INFO   [CmdbLifeCycleManager periodic customers detection] - (35548) - Error processing request:
+2018-04-12 05:41:58,317  INFO   [CmdbLifeCycleManager periodic customers detection] - (35548) - appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4d6f3ef2b9ebadb4b0cfd8d09fb86444' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@5c2d813e' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4d6f3ef2b9ebadb4b0cfd8d09fb86444' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@5c2d813e' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.createCmdbResponseOnCmdbError(RequestProcessor.java:499)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:223)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.handleRequest(RequestProcessor.java:127)
+	at com.mercury.topaz.cmdb.server.manage.Framework.handleRequest(Framework.java:790)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeCMDBOperation(AbstractCmdbApi.java:38)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeOperation(AbstractCmdbApi.java:57)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeOperation(InternalApi.java:32)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeCMDBOperation(InternalApi.java:24)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:56)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:34)
+	at com.hp.ucmdb.api.server.OperationExecutorForApi.executeOperation(OperationExecutorForApi.java:30)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.executeOperation(RequestProcessorBase.java:50)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:41)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:32)
+	at com.hp.ucmdb.api.server.request.AbstractGlobalCustomerRequestProcessor.doProcess(AbstractGlobalCustomerRequestProcessor.java:26)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.processAndLog(RequestProcessorBase.java:114)
+	at com.hp.ucmdb.api.server.util.ApiProcessingHelper.processRequestLocallyLocalMode(ApiProcessingHelper.java:70)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.processRequest(LocalRequestSubmitter.java:128)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.internalSubmitRequest(LocalRequestSubmitter.java:109)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:53)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:26)
+	at com.hp.ucmdb.api.client.UcmdbManagementServiceImpl.submitRequest(UcmdbManagementServiceImpl.java:41)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:29)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:19)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.getNativeListOfCustomers(CmdbLifeCycleManagerImpl.java:271)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.pingCustomers(CmdbLifeCycleManagerImpl.java:115)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.access$000(CmdbLifeCycleManagerImpl.java:32)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl$1.run(CmdbLifeCycleManagerImpl.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:160)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	... 27 more
+Caused by: appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:114)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	... 30 more
+Caused by: com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException: [ErrorCode [2] Couldn't connect to database]
+Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:540)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransaction.getConnection(CmdbDalTransaction.java:51)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransactionManager.getConnection(CmdbDalTransactionManager.java:27)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DalDaoSupport.getConnecton(DalDaoSupport.java:23)
+	at com.mercury.topaz.cmdb.server.dal.dao.impl.CustomerDaoImpl.getAllCustomerRegistrations(CustomerDaoImpl.java:92)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy$ProxyDalAbstractCommand.perform(DaoFactory.java:155)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:120)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:105)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.DefaultRetriableExecutorImpl.doExecute(DefaultRetriableExecutorImpl.java:37)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.AbstractRetriableExecutor.execute(AbstractRetriableExecutor.java:37)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:61)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:53)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy.invoke(DaoFactory.java:135)
+	at com.sun.proxy.$Proxy253.getAllCustomerRegistrations(Unknown Source)
+	at com.mercury.topaz.cmdb.shared.manage.customer.CustomerFacadeImpl.getAllCustomerRegistrations(CustomerFacadeImpl.java:154)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers.customerQueryExecute(CmdbCustomerQueryGetAllCustomers.java:26)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.AbstractCustomerQueryCmdb.doExecute(AbstractCustomerQueryCmdb.java:31)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkGlobalOperation.commonExecute(AbstractFrameworkGlobalOperation.java:15)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	... 34 more
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:491)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:534)
+	... 59 more
+Caused by: java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:497)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOSESSKEY(T4CTTIoauthenticate.java:460)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:594)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.commons.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at com.mercury.topaz.cmdb.server.manage.dal.DataDirectConnectionFactory.createConnection(DataDirectConnectionFactory.java:30)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:256)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager$ConnectionPoolDecorator.borrowObject(ConnectionPoolManager.java:767)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:479)
+	... 60 more
+2018-04-12 05:42:01,342  INFO   [CmdbLifeCycleManager periodic customers detection] - (35553) - Error processing request:
+2018-04-12 05:42:01,343  INFO   [CmdbLifeCycleManager periodic customers detection] - (35553) - appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4f1e343a1a5b3ade9e9be7bf86249378' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@f808045' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4f1e343a1a5b3ade9e9be7bf86249378' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@f808045' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.createCmdbResponseOnCmdbError(RequestProcessor.java:499)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:223)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.handleRequest(RequestProcessor.java:127)
+	at com.mercury.topaz.cmdb.server.manage.Framework.handleRequest(Framework.java:790)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeCMDBOperation(AbstractCmdbApi.java:38)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeOperation(AbstractCmdbApi.java:57)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeOperation(InternalApi.java:32)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeCMDBOperation(InternalApi.java:24)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:56)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:34)
+	at com.hp.ucmdb.api.server.OperationExecutorForApi.executeOperation(OperationExecutorForApi.java:30)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.executeOperation(RequestProcessorBase.java:50)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:41)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:32)
+	at com.hp.ucmdb.api.server.request.AbstractGlobalCustomerRequestProcessor.doProcess(AbstractGlobalCustomerRequestProcessor.java:26)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.processAndLog(RequestProcessorBase.java:114)
+	at com.hp.ucmdb.api.server.util.ApiProcessingHelper.processRequestLocallyLocalMode(ApiProcessingHelper.java:70)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.processRequest(LocalRequestSubmitter.java:128)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.internalSubmitRequest(LocalRequestSubmitter.java:109)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:53)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:26)
+	at com.hp.ucmdb.api.client.UcmdbManagementServiceImpl.submitRequest(UcmdbManagementServiceImpl.java:41)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:29)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:19)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.getNativeListOfCustomers(CmdbLifeCycleManagerImpl.java:271)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.pingCustomers(CmdbLifeCycleManagerImpl.java:115)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.access$000(CmdbLifeCycleManagerImpl.java:32)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl$1.run(CmdbLifeCycleManagerImpl.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:160)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	... 27 more
+Caused by: appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:114)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	... 30 more
+Caused by: com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException: [ErrorCode [2] Couldn't connect to database]
+Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:540)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransaction.getConnection(CmdbDalTransaction.java:51)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransactionManager.getConnection(CmdbDalTransactionManager.java:27)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DalDaoSupport.getConnecton(DalDaoSupport.java:23)
+	at com.mercury.topaz.cmdb.server.dal.dao.impl.CustomerDaoImpl.getAllCustomerRegistrations(CustomerDaoImpl.java:92)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy$ProxyDalAbstractCommand.perform(DaoFactory.java:155)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:120)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:105)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.DefaultRetriableExecutorImpl.doExecute(DefaultRetriableExecutorImpl.java:37)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.AbstractRetriableExecutor.execute(AbstractRetriableExecutor.java:37)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:61)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:53)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy.invoke(DaoFactory.java:135)
+	at com.sun.proxy.$Proxy253.getAllCustomerRegistrations(Unknown Source)
+	at com.mercury.topaz.cmdb.shared.manage.customer.CustomerFacadeImpl.getAllCustomerRegistrations(CustomerFacadeImpl.java:154)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers.customerQueryExecute(CmdbCustomerQueryGetAllCustomers.java:26)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.AbstractCustomerQueryCmdb.doExecute(AbstractCustomerQueryCmdb.java:31)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkGlobalOperation.commonExecute(AbstractFrameworkGlobalOperation.java:15)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	... 34 more
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:491)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:534)
+	... 59 more
+Caused by: java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:497)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOSESSKEY(T4CTTIoauthenticate.java:460)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:594)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.commons.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at com.mercury.topaz.cmdb.server.manage.dal.DataDirectConnectionFactory.createConnection(DataDirectConnectionFactory.java:30)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:256)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager$ConnectionPoolDecorator.borrowObject(ConnectionPoolManager.java:767)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:479)
+	... 60 more
+2018-04-12 05:42:04,367  INFO   [CmdbLifeCycleManager periodic customers detection] - (35554) - Error processing request:
+2018-04-12 05:42:04,367  INFO   [CmdbLifeCycleManager periodic customers detection] - (35554) - appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='414647a9ca64554eadf8c4b807b932f0' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@55f1c72f' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='414647a9ca64554eadf8c4b807b932f0' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@55f1c72f' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.createCmdbResponseOnCmdbError(RequestProcessor.java:499)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:223)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.handleRequest(RequestProcessor.java:127)
+	at com.mercury.topaz.cmdb.server.manage.Framework.handleRequest(Framework.java:790)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeCMDBOperation(AbstractCmdbApi.java:38)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeOperation(AbstractCmdbApi.java:57)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeOperation(InternalApi.java:32)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeCMDBOperation(InternalApi.java:24)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:56)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:34)
+	at com.hp.ucmdb.api.server.OperationExecutorForApi.executeOperation(OperationExecutorForApi.java:30)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.executeOperation(RequestProcessorBase.java:50)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:41)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:32)
+	at com.hp.ucmdb.api.server.request.AbstractGlobalCustomerRequestProcessor.doProcess(AbstractGlobalCustomerRequestProcessor.java:26)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.processAndLog(RequestProcessorBase.java:114)
+	at com.hp.ucmdb.api.server.util.ApiProcessingHelper.processRequestLocallyLocalMode(ApiProcessingHelper.java:70)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.processRequest(LocalRequestSubmitter.java:128)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.internalSubmitRequest(LocalRequestSubmitter.java:109)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:53)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:26)
+	at com.hp.ucmdb.api.client.UcmdbManagementServiceImpl.submitRequest(UcmdbManagementServiceImpl.java:41)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:29)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:19)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.getNativeListOfCustomers(CmdbLifeCycleManagerImpl.java:271)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.pingCustomers(CmdbLifeCycleManagerImpl.java:115)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.access$000(CmdbLifeCycleManagerImpl.java:32)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl$1.run(CmdbLifeCycleManagerImpl.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:160)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	... 27 more
+Caused by: appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:114)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	... 30 more
+Caused by: com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException: [ErrorCode [2] Couldn't connect to database]
+Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:540)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransaction.getConnection(CmdbDalTransaction.java:51)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransactionManager.getConnection(CmdbDalTransactionManager.java:27)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DalDaoSupport.getConnecton(DalDaoSupport.java:23)
+	at com.mercury.topaz.cmdb.server.dal.dao.impl.CustomerDaoImpl.getAllCustomerRegistrations(CustomerDaoImpl.java:92)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy$ProxyDalAbstractCommand.perform(DaoFactory.java:155)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:120)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:105)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.DefaultRetriableExecutorImpl.doExecute(DefaultRetriableExecutorImpl.java:37)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.AbstractRetriableExecutor.execute(AbstractRetriableExecutor.java:37)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:61)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:53)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy.invoke(DaoFactory.java:135)
+	at com.sun.proxy.$Proxy253.getAllCustomerRegistrations(Unknown Source)
+	at com.mercury.topaz.cmdb.shared.manage.customer.CustomerFacadeImpl.getAllCustomerRegistrations(CustomerFacadeImpl.java:154)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers.customerQueryExecute(CmdbCustomerQueryGetAllCustomers.java:26)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.AbstractCustomerQueryCmdb.doExecute(AbstractCustomerQueryCmdb.java:31)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkGlobalOperation.commonExecute(AbstractFrameworkGlobalOperation.java:15)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	... 34 more
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:491)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:534)
+	... 59 more
+Caused by: java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:497)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOSESSKEY(T4CTTIoauthenticate.java:460)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:594)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.commons.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at com.mercury.topaz.cmdb.server.manage.dal.DataDirectConnectionFactory.createConnection(DataDirectConnectionFactory.java:30)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:256)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager$ConnectionPoolDecorator.borrowObject(ConnectionPoolManager.java:767)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:479)
+	... 60 more
+2018-04-12 05:42:07,390  INFO   [CmdbLifeCycleManager periodic customers detection] - (35555) - Error processing request:
+2018-04-12 05:42:07,390  INFO   [CmdbLifeCycleManager periodic customers detection] - (35555) - appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4fb6f1ace36af69e9653370cca079a51' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@49dbbbae' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers : class com.mercury.topaz.cmdb.shared.base.CmdbException : 
+CMDB Internal Error: Error while handling request: {request: ID='4fb6f1ace36af69e9653370cca079a51' Message='General CMDB request' Operation='com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers@49dbbbae' Customer ID='-2147483648' 
+Context='CMDB Context: Customer id = '-2147483648' , User ID = '911' , Caller Application = 'UIServer''}
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.createCmdbResponseOnCmdbError(RequestProcessor.java:499)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:223)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.handleRequest(RequestProcessor.java:127)
+	at com.mercury.topaz.cmdb.server.manage.Framework.handleRequest(Framework.java:790)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeCMDBOperation(AbstractCmdbApi.java:38)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.AbstractCmdbApi.executeOperation(AbstractCmdbApi.java:57)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeOperation(InternalApi.java:32)
+	at com.mercury.topaz.cmdb.client.manage.api.impl.InternalApi.executeCMDBOperation(InternalApi.java:24)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:56)
+	at com.mercury.topaz.cmdb.server.manage.ServerApiFacade.executeOperation(ServerApiFacade.java:34)
+	at com.hp.ucmdb.api.server.OperationExecutorForApi.executeOperation(OperationExecutorForApi.java:30)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.executeOperation(RequestProcessorBase.java:50)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:41)
+	at com.hp.ucmdb.api.server.customers.GetAllCustomersProcessor.process(GetAllCustomersProcessor.java:32)
+	at com.hp.ucmdb.api.server.request.AbstractGlobalCustomerRequestProcessor.doProcess(AbstractGlobalCustomerRequestProcessor.java:26)
+	at com.hp.ucmdb.api.server.request.RequestProcessorBase.processAndLog(RequestProcessorBase.java:114)
+	at com.hp.ucmdb.api.server.util.ApiProcessingHelper.processRequestLocallyLocalMode(ApiProcessingHelper.java:70)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.processRequest(LocalRequestSubmitter.java:128)
+	at com.hp.ucmdb.api.server.local.LocalRequestSubmitter.internalSubmitRequest(LocalRequestSubmitter.java:109)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:53)
+	at com.hp.ucmdb.api.client.AbstractRequestSubmitter.submitRequest(AbstractRequestSubmitter.java:26)
+	at com.hp.ucmdb.api.client.UcmdbManagementServiceImpl.submitRequest(UcmdbManagementServiceImpl.java:41)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:29)
+	at com.hp.ucmdb.api.client.customers.CustomersServiceImpl.getAllCustomers(CustomersServiceImpl.java:19)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.getNativeListOfCustomers(CmdbLifeCycleManagerImpl.java:271)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.pingCustomers(CmdbLifeCycleManagerImpl.java:115)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl.access$000(CmdbLifeCycleManagerImpl.java:32)
+	at com.hp.ucmdb.uiserver.services.context.lifecycle.CmdbLifeCycleManagerImpl$1.run(CmdbLifeCycleManagerImpl.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [2] Couldn't connect to database]
+appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:160)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequest(RequestProcessor.java:238)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.doProcessRequestWithQueueLimitation(RequestProcessor.java:247)
+	at com.mercury.topaz.cmdb.server.manage.rpm.RequestProcessor.processRequest(RequestProcessor.java:201)
+	... 27 more
+Caused by: appilog.framework.shared.manage.impl.MamResponseException: [ErrorCode [2] Couldn't connect to database]
+CMDB Operation Internal Error: class com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException : Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+ : operation CmdbCustomerQueryGetAllCustomers
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:114)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:60)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.operation.flow.OperationInFlowDefaultExecutor.execute(OperationInFlowDefaultExecutor.java:23)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation.execute(AbstractCommonOperation.java:158)
+	... 30 more
+Caused by: com.mercury.topaz.cmdb.server.manage.dal.CmdbDalException: [ErrorCode [2] Couldn't connect to database]
+Error getting connection from pool, due to exception: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:540)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransaction.getConnection(CmdbDalTransaction.java:51)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalTransactionManager.getConnection(CmdbDalTransactionManager.java:27)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DalDaoSupport.getConnecton(DalDaoSupport.java:23)
+	at com.mercury.topaz.cmdb.server.dal.dao.impl.CustomerDaoImpl.getAllCustomerRegistrations(CustomerDaoImpl.java:92)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy$ProxyDalAbstractCommand.perform(DaoFactory.java:155)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand$FlowControlDalCommandExecutor.execute(DalAbstractCommand.java:36)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:227)
+	at com.mercury.topaz.cmdb.shared.manage.flowmanagement.api.FlowManager.execute(FlowManager.java:222)
+	at com.mercury.topaz.cmdb.server.manage.dal.DalAbstractCommand.execute(DalAbstractCommand.java:54)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:120)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO$CmdbDalDeadlockRetriable.performAction(CmdbDalJdbcDAO.java:105)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.DefaultRetriableExecutorImpl.doExecute(DefaultRetriableExecutorImpl.java:37)
+	at com.mercury.topaz.cmdb.shared.util.retry.impl.AbstractRetriableExecutor.execute(AbstractRetriableExecutor.java:37)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:61)
+	at com.mercury.topaz.cmdb.server.manage.dal.CmdbDalJdbcDAO.executeQuery(CmdbDalJdbcDAO.java:53)
+	at com.mercury.topaz.cmdb.server.manage.dal.dao.DaoFactory$TransactionProxy.invoke(DaoFactory.java:135)
+	at com.sun.proxy.$Proxy253.getAllCustomerRegistrations(Unknown Source)
+	at com.mercury.topaz.cmdb.shared.manage.customer.CustomerFacadeImpl.getAllCustomerRegistrations(CustomerFacadeImpl.java:154)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.CmdbCustomerQueryGetAllCustomers.customerQueryExecute(CmdbCustomerQueryGetAllCustomers.java:26)
+	at com.mercury.topaz.cmdb.shared.manage.customer.operation.query.impl.AbstractCustomerQueryCmdb.doExecute(AbstractCustomerQueryCmdb.java:31)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractFrameworkGlobalOperation.commonExecute(AbstractFrameworkGlobalOperation.java:15)
+	at com.mercury.topaz.cmdb.shared.manage.operation.impl.AbstractCommonOperation$OperationExecuteFlowTrackingCommand.execute(AbstractCommonOperation.java:87)
+	... 34 more
+Caused by: com.mercury.topaz.cmdb.shared.base.CmdbException: [ErrorCode [-2147483648] undefined error code]
+java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:491)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getTransactionalConnection(ConnectionPoolManager.java:534)
+	... 59 more
+Caused by: java.sql.SQLRecoverableException: ORA-01033: ORACLE initialization or shutdown in progress
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:497)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOSESSKEY(T4CTTIoauthenticate.java:460)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:594)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.commons.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at com.mercury.topaz.cmdb.server.manage.dal.DataDirectConnectionFactory.createConnection(DataDirectConnectionFactory.java:30)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:256)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager$ConnectionPoolDecorator.borrowObject(ConnectionPoolManager.java:767)
+	at com.mercury.topaz.cmdb.server.manage.dal.ConnectionPoolManager.getNativeConnection(ConnectionPoolManager.java:479)
+	... 60 more

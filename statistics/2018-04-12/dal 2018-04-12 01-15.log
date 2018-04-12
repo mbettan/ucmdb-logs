@@ -1,0 +1,70 @@
+
+************************ Statistics from 2018-04-12 01:00:00.006 until 2018-04-12 01:15:00.022 ************************
+Operations executed: 2749
+Different operation types executed: 37
+Operations average time (in millis): 0
+The 10 worst operations are:
+# Millis:     494 # On: 2018-04-12 01:13:30.548 # SELECT SEQUENCE_VALUE FROM SEQUENCES WHERE SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=? for update
+null
+# Millis:     290 # On: 2018-04-12 01:12:00.547 # update SEQUENCES set SEQUENCE_VALUE=? where SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=?
+null
+# Millis:      10 # On: 2018-04-12 01:14:17.877 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       9 # On: 2018-04-12 01:14:11.823 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       8 # On: 2018-04-12 01:14:17.859 # select * from CUSTOMER_REGISTRATION order by ID
+null
+# Millis:       8 # On: 2018-04-12 01:11:19.970 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+null
+# Millis:       5 # On: 2018-04-12 01:11:19.961 # select * from DB_CONTEXT
+null
+# Millis:       5 # On: 2018-04-12 01:12:21.871 # INSERT INTO URM_RESOURCES_HISTORY (REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, IS_DELETE_EVENT) 
+ ( SELECT REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, ?  
+ FROM URM_RESOURCES 
+ WHERE 1=1  AND REAL_ID in (?) AND TYPE NOT IN ('History_HIST_FAILURE','UI_USER_PREFERENCES','Settings_PROPERTY_SETTING','UI_PROTOCOL_DECORATION','UI_DASHBOARD_SETTINGS'))
+null
+# Millis:       5 # On: 2018-04-12 01:00:10.146 # delete from HIST_MODEL_REVISION_MAPPING where CUSTOMER_ID = ?  and MODEL_REVISION <=  (select max(MODEL_REVISION) from HIST_MODEL_REVISION_MAPPING where CUSTOMER_ID = ?  and START_TIME <= ? )
+null
+# Millis:       5 # On: 2018-04-12 01:13:56.742 # select * from DB_CONTEXT
+null
+ *** All operations statistics ***
+# Avg (ms):       5 # Max (ms):       5 # Count:     1 # Last called: 2018-04-12 01:00:10.146 # delete from HIST_MODEL_REVISION_MAPPING where CUSTOMER_ID = ?  and MODEL_REVISION <=  (select max(MODEL_REVISION) from HIST_MODEL_REVISION_MAPPING where CUSTOMER_ID = ?  and START_TIME <= ? )
+# Avg (ms):       3 # Max (ms):       3 # Count:     1 # Last called: 2018-04-12 01:00:10.047 # select CMDB_ID from HDMR_MONITOR_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.085 # select CMDB_ID from HDMR_SYSTEM_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.058 # select CMDB_ID from HDMR_SYSTEM_MONITOR_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.087 # delete from HDMR_SYSTEM_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.139 # select CMDB_ID from HDMR_REPORTRESULT_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.060 # delete from HDMR_SYSTEM_MONITOR_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.078 # delete from HDMR_MONITORED_BY_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.067 # select CMDB_ID from HDMR_EUM_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.112 # select CMDB_ID from HDMR_CONTAINMENT_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.076 # select CMDB_ID from HDMR_MONITORED_BY_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.103 # select CMDB_ID from HDMR_COMPOSITION_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.130 # select CMDB_ID from HDMR_SNAPSHOT_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       3 # Count:    22 # Last called: 2018-04-12 01:00:10.143 # select table_name from user_tables where table_name=?
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.094 # select CMDB_ID from HDMR_BUSINESS_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.123 # delete from HDMR_INCLUDES_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.141 # delete from HDMR_REPORTRESULT_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.096 # delete from HDMR_BUSINESS_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 01:00:10.121 # select CMDB_ID from HDMR_INCLUDES_1 where START_TIME < 1513040409832
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 01:00:10.069 # delete from HDMR_EUM_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 01:00:10.132 # delete from HDMR_SNAPSHOT_1 where START_TIME < 1513040409832
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 01:00:10.051 # delete from HDMR_MONITOR_LINKS_1 where START_TIME < 1513040409832
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 01:00:10.114 # delete from HDMR_CONTAINMENT_1 where START_TIME < 1513040409832
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 01:00:10.105 # delete from HDMR_COMPOSITION_1 where START_TIME < 1513040409832
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 01:14:57.843 # select (cast(sys_extract_utc(systimestamp) as date) - to_date('19700101', 'YYYYMMDD')) * 86400 seconds FROM dual
+# Avg (ms):       0 # Max (ms):       8 # Count:   656 # Last called: 2018-04-12 01:14:57.835 # select * from CUSTOMER_REGISTRATION order by ID
+# Avg (ms):       0 # Max (ms):       5 # Count:    90 # Last called: 2018-04-12 01:14:50.554 # INSERT INTO URM_RESOURCES_HISTORY (REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, IS_DELETE_EVENT) 
+ ( SELECT REAL_ID,CUSTOMER_ID,TYPE,RESOURCE_ID,SPEC_VERSION,RESOURCE_NAME,TEXT_DATA,BINARY_DATA,LAST_UPDATED,UPDATED_BY,COMMIT_REVISION, ?  
+ FROM URM_RESOURCES 
+ WHERE 1=1  AND REAL_ID in (?) AND TYPE NOT IN ('History_HIST_FAILURE','UI_USER_PREFERENCES','Settings_PROPERTY_SETTING','UI_PROTOCOL_DECORATION','UI_DASHBOARD_SETTINGS'))
+# Avg (ms):       0 # Max (ms):       1 # Count:   113 # Last called: 2018-04-12 01:00:10.042 # select * from DB_CONTEXT where SCHEMA_TYPE=? and CONFIG_ID=?
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 01:14:57.842 # SELECT * FROM HA_WRITER for update
+# Avg (ms):       0 # Max (ms):       1 # Count:    90 # Last called: 2018-04-12 01:14:50.555 # SELECT MODEL_ID, REVISION FROM HA_REVISIONS WHERE MODEL_ID IN ('URM_customerId_1') for update
+# Avg (ms):       0 # Max (ms):      10 # Count:   656 # Last called: 2018-04-12 01:14:57.837 # select IS_ACTIVE from CUSTOMER_REGISTRATION where ID=?
+# Avg (ms):       0 # Max (ms):       5 # Count:   596 # Last called: 2018-04-12 01:14:57.083 # select * from DB_CONTEXT
+# Avg (ms):       0 # Max (ms):       1 # Count:    30 # Last called: 2018-04-12 01:14:44.966 # SELECT VERSION FROM CONTENT_PACKS ORDER BY VERSION ASC
+# Avg (ms):       0 # Max (ms):       1 # Count:   113 # Last called: 2018-04-12 01:00:10.041 # select * from CUSTOMER_REGISTRATION where ID=?
+# Avg (ms):       0 # Max (ms):     290 # Count:    90 # Last called: 2018-04-12 01:14:50.550 # update SEQUENCES set SEQUENCE_VALUE=? where SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=?
+# Avg (ms):       0 # Max (ms):     494 # Count:    90 # Last called: 2018-04-12 01:14:50.549 # SELECT SEQUENCE_VALUE FROM SEQUENCES WHERE SEQUENCE_KEY=? and SEQUENCE_CUSTOMER_ID=? for update
+# Avg (ms):       0 # Max (ms):       1 # Count:    60 # Last called: 2018-04-12 01:14:57.843 # UPDATE HA_WRITER SET SERVER_ID=?,TIMESTAMP=?,SUGGESTED_SERVER_ID=?,SUGGESTION_TIMESTAMP=?

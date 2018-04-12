@@ -1,0 +1,10 @@
+2018-04-11 20:43:08,016  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of items in DB since last run is unknown, resetting counters
+2018-04-11 20:43:08,056  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of items in the database: 0
+2018-04-11 20:43:08,070  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Loaded statistics settings: model.change.percent.statistics.threshold is 10, model.database.size.statistics.threshold is 100000
+2018-04-11 20:43:08,070  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - ModelStatisticsRunner Initialization:
+2018-04-11 20:43:08,070  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of items in the database since last run: 0
+2018-04-11 20:43:08,070  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of changed items since last run: 0
+2018-04-12 06:44:27,076  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Loaded statistics settings: model.change.percent.statistics.threshold is 10, model.database.size.statistics.threshold is 100000
+2018-04-12 06:44:27,077  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - ModelStatisticsRunner Initialization:
+2018-04-12 06:44:27,077  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of items in the database since last run: 0
+2018-04-12 06:44:27,077  INFO   [Starter for "model" (during Writer server startup). (customer 1, id name: Default Client)] topology.?(?) - Number of changed items since last run: 0

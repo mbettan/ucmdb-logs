@@ -1,0 +1,85 @@
+
+************************ Statistics from 2018-04-12 06:44:24.877 until 2018-04-12 06:45:00.024 ************************
+Operations executed: 166
+Different operation types executed: 58
+Operations average time (in millis): 12
+The 10 worst operations are:
+# Millis:     874 # On: 2018-04-12 06:44:24.877 # getAll [License_LICENSE]
+getAll [License_LICENSE]
+# Millis:     862 # On: 2018-04-12 06:44:24.882 # init
+init
+# Millis:     111 # On: 2018-04-12 06:44:59.430 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      68 # On: 2018-04-12 06:44:25.920 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      36 # On: 2018-04-12 06:44:26.963 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      24 # On: 2018-04-12 06:44:26.390 # commitTransaction with callback
+commitTransaction with callback
+# Millis:      23 # On: 2018-04-12 06:44:29.433 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      23 # On: 2018-04-12 06:44:27.001 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      23 # On: 2018-04-12 06:44:26.940 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+# Millis:      23 # On: 2018-04-12 06:44:26.058 # put [Settings_STATE_CUSTOMER_SETTING]
+put [Settings_STATE_CUSTOMER_SETTING]
+ *** All operations statistics ***
+# Avg (ms):     862 # Max (ms):     862 # Count:     1 # Last called: 2018-04-12 06:44:24.882 # init
+# Avg (ms):      20 # Max (ms):     111 # Count:    24 # Last called: 2018-04-12 06:44:59.430 # put [Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):      19 # Max (ms):     874 # Count:    34 # Last called: 2018-04-12 06:44:29.315 # getAll [License_LICENSE]
+# Avg (ms):      12 # Max (ms):      24 # Count:     2 # Last called: 2018-04-12 06:44:26.390 # commitTransaction with callback
+# Avg (ms):       5 # Max (ms):       5 # Count:     1 # Last called: 2018-04-12 06:44:25.744 # validateResourcesOnInitDone
+# Avg (ms):       2 # Max (ms):       2 # Count:     1 # Last called: 2018-04-12 06:44:25.751 # getAll [Settings_RESOURCE_GLOBAL_SETTING]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:27.319 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_RESOURCE_BUNDLE]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.133 # getAll [CM_CALCULATED_LINK]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.087 # getAll [CM_CLASS]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.737 # getAllByFilter [Settings_PROPERTY_SETTING]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.341 # addListener [POST_COMMIT:ALL_NODES:Reconciliation_IDENTIFICATION_CONFIG]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:27.223 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       1 # Max (ms):       3 # Count:     2 # Last called: 2018-04-12 06:44:27.553 # getAll [Topology_RESOURCE_BUNDLE]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.032 # addListener [POST_COMMIT:ALL_NODES:Rta_RESOURCE_TENANTS_ASSOCIATION]
+# Avg (ms):       1 # Max (ms):       1 # Count:     1 # Last called: 2018-04-12 06:44:26.031 # addListener [POST_COMMIT:ALL_NODES:Auth_TENANT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.283 # addListener [POST_COMMIT:ALL_NODES:CM_CLASS, CM_CALCULATED_LINK, CM_TYPE_DEF, CM_VALID_LINK]
+# Avg (ms):       0 # Max (ms):       0 # Count:     6 # Last called: 2018-04-12 06:44:59.430 # getAll [Integration_ADAPTER_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.283 # addListener [POST_COMMIT:WRITER_NODE_ONLY:CM_CALCULATED_LINK]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.337 # getAll [Topology_CORRELATION_RULE]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:25.757 # addListener [POST_COMMIT:ALL_NODES:Settings_RESOURCE_GLOBAL_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.342 # addListener [POST_COMMIT:ALL_NODES:Reconciliation_RECONCILIATION_PRIORITY_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.143 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Auth_TENANT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.240 # addListener [POST_COMMIT:ALL_NODES:Topology_TQL]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.325 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_VIEW]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.563 # getAll [Topology_ENRICHMENT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.541 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Topology_ENRICHMENT_BUSINESS_VIEW]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.331 # getAll [Integration_INTEGRATION_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.218 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Topology_TQL_TRACKER]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.539 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Topology_ENRICHMENT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.087 # getAll [CM_VALID_LINK]
+# Avg (ms):       0 # Max (ms):       0 # Count:     3 # Last called: 2018-04-12 06:44:27.629 # addListener [POST_COMMIT:WRITER_NODE_ONLY:CM_CLASS]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.387 # addListener [POST_COMMIT:ALL_NODES:Integration_INTEGRATION_CONFIG, Integration_ADAPTER_CONFIG, Integration_PUSH_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.217 # addListener [POST_COMMIT:ALL_NODES:Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:25.777 # getAll [Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.331 # getAll [Integration_PUSH_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.144 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Settings_DYNAMIC_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.418 # getAll [Reconciliation_RECONCILIATION_PRIORITY_CONFIG]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.737 # getAllByFilter [Settings_STATE_CUSTOMER_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     6 # Last called: 2018-04-12 06:44:59.549 # addListener [POST_COMMIT:ALL_NODES:CM_CLASS]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.541 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Rta_RESOURCE_TENANTS_ASSOCIATION]
+# Avg (ms):       0 # Max (ms):       1 # Count:    29 # Last called: 2018-04-12 06:44:58.615 # getAll [Auth_INVALID_LOGIN]
+# Avg (ms):       0 # Max (ms):       0 # Count:     5 # Last called: 2018-04-12 06:44:59.581 # removeListener
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.538 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_ENRICHMENT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     2 # Last called: 2018-04-12 06:44:27.790 # getAll [Discovery_MNG_ZONE]
+# Avg (ms):       0 # Max (ms):       0 # Count:     2 # Last called: 2018-04-12 06:44:26.479 # commitTransaction
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.737 # getAllByFilter [Settings_RESOURCE_GLOBAL_SETTING]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.641 # getAllByFilter [Discovery_CONFIGURATION_FILE_METADATA]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:25.918 # addListener [POST_COMMIT:ALL_NODES:Auth_USER, Auth_USERS_GROUP, Auth_ROLE, Auth_ROLE_ASSIGNMENT, Auth_PERMITTED_RESOURCES_GROUP, Auth_TENANT, Auth_SINGLE_TENANT_SECURITY_DOMAIN, Auth_ANY_TENANT_SECURITY_DOMAIN]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.134 # getAll [CM_TYPE_DEF]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.240 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_TQL]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.776 # getAllByFilter [Discovery_ADAPTER_METADATA]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:25.907 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_VIEW, Topology_ENRICHMENT, Policy_FOLDER_POLICY, UI_CUSTOM_REPORT, Topology_FOLDER_CORRELATION, Topology_ENRICHMENT_BUSINESS_VIEW, UI_RECIPIENT, UI_BROWSER_WIDGET, Topology_FOLDER_VIEW, Discovery_FOLDER_MZ, Topology_FOLDER_ENRICHMENT, Topology_CORRELATION_RULE, UI_RESTRICTED_DATA, UI_UI_JOB, Policy_POLICY_RULE, Auth_FOLDER, Topology_TQL, Topology_FOLDER_TQL]
+# Avg (ms):       0 # Max (ms):       1 # Count:     4 # Last called: 2018-04-12 06:44:26.479 # startTransaction
+# Avg (ms):       0 # Max (ms):       0 # Count:     2 # Last called: 2018-04-12 06:44:27.797 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Discovery_CONFIGURATION_FILE_METADATA]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.256 # getAll [Topology_TQL]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:26.030 # addListener [POST_COMMIT:WRITER_NODE_ONLY:Auth_TENANT]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:27.540 # addListener [PRE_COMMIT:WRITER_NODE_ONLY:Topology_ENRICHMENT_BUSINESS_VIEW]
+# Avg (ms):       0 # Max (ms):       0 # Count:     1 # Last called: 2018-04-12 06:44:24.878 # register

@@ -1,0 +1,8 @@
+2018-04-11 20:43:08,155  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - Single tracked TQL period in minutes was set to: 240
+2018-04-11 20:43:08,155  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TQL-Tracker queue evaluation was set to run every: 20 minutes, with delay of 30 minutes
+2018-04-11 20:43:08,155  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TQL-Tracker Event Disposer task rescheduled for customer [1, id name: Default Client]. Delay till first run: [22620000ms]. Period: [24 hours].
+2018-04-11 20:43:08,157  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TqlTrackerManager has started successfully
+2018-04-12 06:44:27,215  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - Single tracked TQL period in minutes was set to: 240
+2018-04-12 06:44:27,215  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TQL-Tracker queue evaluation was set to run every: 20 minutes, with delay of 30 minutes
+2018-04-12 06:44:27,215  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TQL-Tracker Event Disposer task rescheduled for customer [1, id name: Default Client]. Delay till first run: [72960000ms]. Period: [24 hours].
+2018-04-12 06:44:27,218  INFO   [Starter for "tql_tracker" (during Writer server startup). (customer 1, id name: Default Client)] - TqlTrackerManager has started successfully
